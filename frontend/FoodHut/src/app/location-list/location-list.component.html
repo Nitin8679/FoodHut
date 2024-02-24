@@ -1,0 +1,22 @@
+<div class="location-list">
+    <div class="description">
+        <h1>
+            Popular locations in India
+        </h1>
+        <p>
+            From swanky upscale restaurants to the cosiest hidden gems serving the most incredible food, Zomato covers it all. Explore menus, and millions of restaurant photos and reviews from users just like you, to find your next great meal.
+        </p>
+    </div>
+
+    <div class="list">
+        <div class="list-element" *ngFor="let location of mostPopularLocations">
+            <button mat-flat-button (click)="cityClicked(location)">
+                <mat-icon matIconSuffix>chevron_right</mat-icon>
+                <span>
+                    {{location}}
+                </span>
+            </button>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,35 @@
+<div class="restaurant-orders">
+
+    <div class="col">
+        <h1>
+            processing-list        
+        </h1>
+        <div class="list">
+            <div class="element" *ngFor="let order of processingOrders ">
+                <app-order-card [order]="order"  [from]="'RESTAURANT'"></app-order-card>
+                <div class="btns">
+                    <button mat-flat-button color="primary" 
+                    matTooltip="confirm order request" (click)="confirm(order.id)">
+                        send out order
+                    </button>
+                    <button mat-flat-button color="warn" matTooltip="reject order request"
+                    (click)="reject(order.id)">
+                        reject
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <h1>
+            confirmed-list
+        </h1>
+        <div class="list">
+            <div class="element" *ngFor="let order of  confirmedOrders">
+                <app-order-card [order]="order" [from]="userType" ></app-order-card>
+            </div>
+        </div>
+    </div>
+
+
+</div>

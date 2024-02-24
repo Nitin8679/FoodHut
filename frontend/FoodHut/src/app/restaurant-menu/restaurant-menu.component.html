@@ -1,0 +1,59 @@
+<div class="restaurant-menu">
+    
+    
+<!-- ######################################################################################################### -->
+    <!-- <mat-card>
+        <mat-card-content>
+
+            <mat-form-field appearance="outline">
+                <mat-label>search</mat-label>
+                <input type="text" matInput>
+            </mat-form-field>
+
+            <div>
+                <mat-chip-listbox aria-label="Fish selection">
+                    <mat-chip-option>One fish</mat-chip-option>
+                    <mat-chip-option>Two fish</mat-chip-option>
+                    <mat-chip-option color="accent" selected>Accent fish</mat-chip-option>
+                    <mat-chip-option color="warn">Warn fish</mat-chip-option>
+                  </mat-chip-listbox>
+            </div>
+        </mat-card-content>
+
+    </mat-card> -->
+<!-- ######################################################################################################### -->
+    <mat-card>
+        <h3>ITEMS</h3>
+        <div class="item-list snaps-inline">
+            <app-item-card *ngFor="let item of menu" [item]="item" (click)="onItemSelect(item)"  ></app-item-card>
+            <!-- <div class="item-card selectable-card" *ngFor="let item of menu">
+            </div> -->
+            <div class="item-card" *ngIf="menu?.length === 0">
+                menu is empty
+            </div>
+        </div>
+        <mat-card-actions>
+            <button mat-flat-button color="accent" matTooltip="add a new item to the menu" (click)="addItemBtn()">
+                <mat-icon>
+                    add
+                </mat-icon>
+                add item
+            </button>       
+        </mat-card-actions>
+    </mat-card>
+<!-- ######################################################################################################### -->
+    <div class="item-details" *ngIf="menu?.length !== 0">
+        <h3>
+            Item Details
+        </h3>
+        <div>
+            <app-item [selectedItem]="selectedItem"  (itemEdit)="refreshData()"></app-item>
+        </div>
+        <!-- <button mat-flat-button (click)="click()">
+            clickme
+        </button> -->
+    </div>
+<!-- ######################################################################################################### -->
+
+
+</div>

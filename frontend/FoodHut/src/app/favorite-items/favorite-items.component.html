@@ -1,0 +1,11 @@
+<div class="favorite-items">
+    <div>
+        <p>
+            Favorite Foods
+        </p>
+    </div>
+    <div class="media-scroller snaps-inline">
+        <app-item-card *ngFor="let item of favoriteItems" [item]="item" (click)="navigateToRestaurant(item?.restaurantId)"></app-item-card>
+    </div>
+
+</div>

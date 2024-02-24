@@ -1,0 +1,116 @@
+<div class="item">
+    <mat-card>
+        <mat-card-content>
+            <div class="details1">
+                <form class="item-form" [formGroup]="itemForm">
+                    <mat-form-field appearance="fill">
+                        <mat-label>
+                            id
+                        </mat-label>
+                        <input type="text" matInput [value]="selectedItem?.id" readonly="true">
+                    </mat-form-field>
+                    <mat-form-field appearance="fill" color="accent">
+                        <mat-label>
+                            name
+                        </mat-label>
+                        <input type="text" matInput formControlName="name"
+                        [value]="selectedItem?.name" [readonly]="!isEditing">
+                        <mat-error *ngIf="name.errors?.['required']">
+                            name is required
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill">
+                        <mat-label>
+                            category
+                        </mat-label>
+                        <input type="text" matInput formControlName="category"
+                        [value]="selectedItem?.category" [readonly]="!isEditing">
+                        <mat-error *ngIf="category.errors?.['required']">
+                            category is required
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill">
+                        <mat-label>
+                            price
+                        </mat-label>
+                        <input type="text" matInput formControlName="price"
+                        [value]="selectedItem?.price" [readonly]="!isEditing">
+                        <mat-error *ngIf="price.errors?.['required']">
+                            price is required
+                        </mat-error>
+                        <mat-error *ngIf="price.errors?.['invalidPriceFormat']">
+                            price must be greater than or equal to 0
+                        </mat-error>
+                        <mat-error *ngIf="price.errors?.['pattern']">
+                            only numbers accepted
+                        </mat-error>
+                    </mat-form-field>
+                    <mat-form-field appearance="fill">
+                        <mat-label>
+                            description
+                        </mat-label>
+                        <textarea  matInput formControlName="description"
+                        [value]="selectedItem?.description" [readonly]="!isEditing"></textarea>
+                        <mat-error *ngIf="description.errors?.['required']">
+                            description is required
+                        </mat-error>
+                        <mat-error *ngIf="description.errors?.['maxlength']">
+                            must be less  than  200 words
+                        </mat-error>
+
+                    </mat-form-field>                    
+                </form>
+            </div>
+            <div class="details2">
+                <div class="img-container">
+                    <img [src]="imageUrl" alt="item image" class="item-image" >
+                </div>
+                <div class="img-btns">
+                    <input  type="file" accept=".png" (change)="onFileChanged($event)"  id="fileInputForItem" style="display:none">
+                    
+                    <div *ngIf="!isEditingImage">
+
+                        <button mat-flat-button color="primary" (click)="isEditingImage = !isEditingImage"  >
+                            edit image
+                        </button>
+                    </div>
+                    <div class="image-edit-btns" *ngIf="isEditingImage">
+                        <button mat-flat-button color="primary" (click)="openFileInput()" >
+                            change
+                        </button>
+    
+                        <button mat-flat-button color="accent" (click)="uploadImage()">
+                            upload
+                        </button>
+                        <button mat-flat-button color="warn" (click)="cancelImageEdit()">
+                            cancel
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+    
+        </mat-card-content>
+        <mat-card-actions>
+            <div *ngIf="!isEditing">
+                <button mat-flat-button color="primary" (click)="edit()">
+                    edit
+                </button>
+                <button mat-flat-button color="warn" (click)="deleteItem(selectedItem?.id)">
+                    remove
+                </button>
+            </div>
+
+            
+            <div class="edit-btns" *ngIf="isEditing">
+                <button mat-flat-button color="accent" (click)="confirmDetails()" [disabled]="!itemForm.touched || itemForm.invalid" >
+                    confirm
+                </button>
+                <button mat-flat-button color="warn" (click)="cancelDetailsEdit()">
+                    cancel
+                </button>
+
+            </div>
+        </mat-card-actions>
+    </mat-card>
+</div>

@@ -1,0 +1,55 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.favorite-restaurants{
+    --_spacer: var(--size-3);
+    padding: var(--_spacer);
+}
+.media-scroller {
+  display: grid;
+  gap: 10em;
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+
+  padding: 0 var(--_spacer) var(--_spacer);
+  padding: 13px;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+
+  /* background-color: antiquewhite; */
+  padding: var(--_spacer);
+}
+
+.media-scroller--with-groups {
+  grid-auto-columns: 80%;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+/* general styling */
+.favorite-restaurants>:first-child{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  /* Adjust styles for screens 600px and narrower */
+  .media-scroller {
+    grid-auto-columns: 50%; /* Full width for each card */
+    scroll-snap-type: x mandatory; /* Enable horizontal snapping */
+  }
+
+
+}

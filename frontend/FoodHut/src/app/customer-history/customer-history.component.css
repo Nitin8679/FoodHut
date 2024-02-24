@@ -1,0 +1,46 @@
+.customer-history{
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+
+    gap: 1em;
+}
+.col{
+    width: 100%;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-self: flex-start;
+    padding: 1em;
+}
+.element{
+    border: 1px solid grey;
+    padding: 1em;
+    background-color: wheat;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px grey;
+}
+.list{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1em;
+    padding: 0.5em;
+}
+h1{
+    text-align: center;
+    /* background-color: red; */
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.tab-spacer{
+    margin-left: 8px;
+}

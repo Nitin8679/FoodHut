@@ -1,0 +1,176 @@
+<div class="order-card">
+
+    <mat-expansion-panel >
+        <mat-expansion-panel-header>
+          <mat-panel-title>
+            {{item?.category}}
+          </mat-panel-title>
+          <mat-panel-description>
+
+            <span>
+                <span *ngIf="item?.status!=='REMOVED'">
+                    Total:<span class="spacer"></span> ₹ {{item?.price * order?.amount}}
+                </span>
+                <span *ngIf="item?.status==='REMOVED'">
+                    Total:<span class="spacer"></span> unavailable
+                </span>
+
+                <span class="spacer"></span>
+                <span class="spacer"></span>
+                Amount:<span class="spacer"></span> {{order?.amount}}
+            </span>
+
+          </mat-panel-description>
+        </mat-expansion-panel-header>
+
+
+
+        <mat-card>
+            <mat-card-content>
+                
+                <div>
+                    <h2>
+                        OrderID: {{order?.id}}
+                    </h2>
+                    <div>
+                        
+    
+                        <h3>
+                            Item Name:  {{item?.name}} 
+                        </h3>
+                        <p>
+                            cuisineType: <span class="spacer"></span>{{item?.category}}
+                        </p>
+    
+                    </div>
+                </div>
+                <div>
+                    <div *ngIf="from === fromType.CUSTOMER">
+                        <div class="col" *ngIf="!restaurant">
+                            restaurant  does not exist
+                        </div>
+                        
+                        <div>
+                            <h3>
+                                Order From Restaurant:
+                            </h3>
+                            <p>
+                                {{restaurant?.name}}
+                            </p>
+                            <p>
+                                contact: {{restaurant?.contact}}
+                            </p>
+                            <p>
+    
+                            </p>
+    
+                        </div>
+    
+                    </div>
+                    <div  *ngIf="from === fromType.RESTAURANT  ">                    
+                        <div class="col" *ngIf="customer?.status==='INACTIVE'">
+                            customer account does not exist
+                        </div>
+                        <div *ngIf="customer?.status!=='INACTIVE'">
+                            <h3>
+                                Deliver to:
+                            </h3>
+                            <p>
+                                Name:<span class="spacer"></span> {{customer?.name}}
+                            </p>
+                            <p>
+                                Contact:<span class="spacer"></span> {{customer?.contact}}
+                            </p>
+                            <p>
+                                E-mail:<span class="spacer"></span>  {{customer?.id}}
+                            </p>
+        
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+    
+                    <div class="col" *ngIf="item?.status==='REMOVED'">
+                        Item not available
+                    </div>
+                    <div *ngIf="item?.status!=='REMOVED'" class="numbers">
+                        <p>
+                            Price:<span class="spacer"></span>{{item?.price}}
+                        </p>
+                        <p>
+                            Amount:<span class="spacer"></span>{{order?.amount}}
+                        </p>
+                        <h2>
+                            Total:<span class="spacer"></span> ₹ {{item?.price * order?.amount}}
+                        </h2>
+    
+                    </div>
+                </div>
+    
+             
+    
+            </mat-card-content>
+            <mat-card-footer>
+    
+                <div *ngIf="from === fromType.RESTAURANT">
+                    
+                    <span>
+                        Deliver To Location: 
+                    </span>
+                    <span class="spacer">
+                        
+                    </span>
+                    <span>
+                        {{customer?.address.state}},
+                    </span>
+                    <span>
+                        {{customer?.address.city}},
+                    </span>
+                    <span>
+                        {{customer?.address.street}},
+                    </span>
+                    <span>
+                        {{customer?.address.doorNo}},
+                    </span>
+                    <span>
+                        {{customer?.address.zipcode}}
+                    </span>
+                </div>
+                <div *ngIf="from === fromType.CUSTOMER" >
+                    <span>
+                        Restaurant Address: 
+                    </span>
+    
+                    <span class="spacer">
+    
+                    </span>
+                    <span>
+                        {{restaurant?.address.state}},
+                    </span>
+                    <span>
+                        {{restaurant?.address.city}},
+                    </span>
+                    <span>
+                        {{restaurant?.address.area}},
+                    </span>
+                    <span>
+                        {{restaurant?.address.street}},
+                    </span>
+                    <span>
+                        {{restaurant?.address.zipcode}}
+                    </span>
+    
+    
+    
+    
+                </div>
+    
+            </mat-card-footer>
+        </mat-card>
+    
+
+    </mat-expansion-panel>
+    
+
+</div>

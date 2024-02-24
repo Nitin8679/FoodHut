@@ -1,0 +1,87 @@
+
+.hero-container {
+    /* background-image: url('src\assets\Chocolate Bonbons.jpg'); */
+    background-image: url('src\assets\restaurant1.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Text color on the hero image */
+    width: 100vw;
+    
+  }
+  
+
+
+.restaurant-control{
+    /* padding: 1em; */
+    /* padding-top: 5em; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: beige;
+
+}
+.main-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1em;
+}
+.content{
+    background-color: rgba(128, 128, 128, 0.582);
+    
+    /* border: 1px solid black; */
+    padding: 1em;
+    width: 50vw;
+
+    
+    /* position: absolute; */
+    /* top: 0; */
+
+    /* bottom: 0; */
+}
+.main-buttons button{
+    height: 4rem;
+    width: 50%;
+    font-size: 1.2rem;
+}
+button:hover{
+    border-color: red;
+    border: 1px solid red;
+    box-shadow: 1px 1px 1px red;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    background-color: rgba(127, 255, 212, 0.288);
+    width: 60%;
+    padding: 1em;
+    
+}
+.info >*{
+    padding: 0.5em;
+}
+.info h1{
+    font-size: 2rem;
+}
+.info > :last-child{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+.info > :last-child > *{
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: 1px 1.5px 6px  black;
+    color: blueviolet;
+    font-weight: 500;
+    font-size: larger;
+    background-color: whitesmoke;
+}

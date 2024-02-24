@@ -1,0 +1,55 @@
+<div class="restarurant-list">
+
+<div>
+    <h1>
+        Your restarurants
+    </h1>
+</div>
+<div class="component-content">
+    <div class="restaurants-container">
+        
+        <div *ngFor="let restaurant of restaurants">
+            <mat-card  (click)="navigateToRestaurant(restaurant.id)">
+                <mat-card-header>
+                    <div class="header">
+                        <div>
+                            {{restaurant?.name}}
+                        </div>
+                        <div>
+                            {{restaurant?.cuisineType}}
+                        </div>
+                    </div>
+                </mat-card-header>
+                <mat-card-content>
+                    <div class="restaurant-location">
+                        <span>
+                            Location: 
+                        </span>
+                     <span>
+                        {{restaurant?.address.state}},
+                     </span>
+                     <span>
+                        {{restaurant?.address.city}},
+                     </span>
+                     <span>
+                        {{restaurant?.address.area}},
+                     </span>
+                     <span>
+                        {{restaurant?.address.street}},
+                     </span>
+
+                     <span>
+                        {{restaurant?.address.zipcode}}
+                     </span>
+
+
+                    </div>
+                </mat-card-content>
+            </mat-card>
+            
+        </div>
+    </div>
+</div>
+
+
+</div>

@@ -1,0 +1,47 @@
+<div class="restaurants-in-city">
+        <div>
+            
+            <!-- <div class="heading">                
+                browse restaurants in {{city}}
+            <div> -->
+                <div class="filtration">
+                    <div>
+                        <!-- <mat-form-field appearance="outline">
+                            <mat-label>
+                                Search
+                            </mat-label>
+                            <input type="text" matInput [(ngModel)]="query" (keyup)="searchItems($event)" >
+                        </mat-form-field> -->
+                        <div class="input-group searchBox">
+                            <input class="form-control border-end-0 border" type="search" placeholder="Search for restaurants" id="example-search-input" [(ngModel)]="query" (keyup)="searchItems($event)">
+                            <span class="input-group-append">
+                                <button class="btn btn-outline-secondary bg-white border-start-0 border-bottom-0 border ms-n5" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+        
+        
+                    </div>
+                    <div>
+                        <div>
+                            
+                            <mat-chip-listbox aria-label="Fish selection">
+                                <mat-chip-option color="accent" selected
+                                (click)="sortByCategory('ALL')">ALL</mat-chip-option>
+                                <mat-chip-option *ngFor="let category of categories"
+                                (click)="sortByCategory(category)">
+                                    {{category}}
+                                </mat-chip-option>
+                            </mat-chip-listbox>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <div class="media-scroller snaps-inline">
+            <app-restaurant-card *ngFor="let restaurant of restaurantsInLocation" [restaurant]="restaurant" ></app-restaurant-card>          
+        
+        </div>
+    
+
+</div>

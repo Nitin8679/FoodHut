@@ -1,0 +1,6 @@
+export enum AccountStaus{
+    ACTIVE="ACTIVE",
+    INACTIVE="INACTIVE",
+    TERMINATED="TERMINATED",
+    SUSPENDED="SUSPENDED",  
+}

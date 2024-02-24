@@ -1,0 +1,70 @@
+.login {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTM2OTgxMy1pbWFnZS1rd3Z4eHA5MS5qcGc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+mat-card {
+    padding: 1em;
+    box-shadow: 1px 1px 1px 1px black;
+    background: rgba(255, 255, 255, 0.01);
+    transition: backdrop-filter 0.2s ease-in, transform 0.3s ease-out;
+    background-attachment: fixed;
+    backdrop-filter: blur(0);
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    height: 30em;
+}
+
+mat-card:hover {
+    backdrop-filter: blur(25px);
+}
+
+mat-card-title h2 {
+    text-align: center;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-card-actions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+button {
+    width: 80%;
+}
+
+a {
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+mat-card-content {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.8em;
+    border-radius: 0.5em;
+}
+
+mat-label {
+    color: white;
+}

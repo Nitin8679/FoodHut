@@ -1,0 +1,49 @@
+<div class="restaurant-panel">
+    <div>
+        <mat-card>
+            <mat-card-actions>
+                <button mat-flat-button color="primary" (click)="listBtn()" matTooltip="go back to your list of restaurants">
+                    LIST
+                    <mat-icon>
+                        list
+                    </mat-icon>
+                </button>
+            </mat-card-actions>
+            <mat-card-footer>
+                <h1>
+                    Restaurant Control-Panel
+
+                </h1>
+            </mat-card-footer>
+        </mat-card>
+    </div>
+    <mat-tab-group  [selectedIndex]="0" dynamicHeight animationDuration="500ms" preserveContent>
+        <mat-tab label="RESTAURANT DETAILS"> 
+            <ng-template matTabContent>
+                <app-restaurant-details [restaurantId]="restaurantId" ></app-restaurant-details>
+            </ng-template>
+        </mat-tab>
+        <mat-tab label="MENU">
+            <ng-template matTabContent>
+                <app-restaurant-menu [restaurantId]="restaurantId" ></app-restaurant-menu>
+                
+            </ng-template>
+
+        </mat-tab>
+        <mat-tab label="ORDERS"> 
+            <ng-template matTabContent>
+                <app-restaurant-orders [restaurantId]="restaurantId"></app-restaurant-orders>                
+            </ng-template>
+        </mat-tab>
+        <mat-tab label="HISTORY"> 
+            <ng-template matTabContent>
+                <app-restaurant-history [restaurantId]="restaurantId"></app-restaurant-history>                
+            </ng-template>
+        </mat-tab>
+      </mat-tab-group>
+
+
+
+
+
+    </div>

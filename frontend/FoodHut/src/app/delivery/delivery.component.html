@@ -1,0 +1,57 @@
+<div class="delivery">
+    <div class="col" *ngIf="processingOrders.length > 0">
+        <h1>
+            Delivery in Progress...
+        </h1>
+        <div class="list">
+            <div class="element" *ngFor="let order of processingOrders">
+                <app-order-card [order]="order" [from]="userType"></app-order-card>
+                <div class="btns">
+                    <button mat-flat-button color="warn" matTooltip="reject order request" (click)="cancelOrder(order.id)">
+                        cancel order
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col" *ngIf="confirmedOrders.length > 0">
+        <h1>
+            Orders Delivered
+        </h1>
+        <div class="list">
+            <div class="element" *ngFor="let order of confirmedOrders">
+                <app-order-card [order]="order" [from]="userType"></app-order-card>
+                <div class="btns">
+                    <button mat-flat-button color="accent" matTooltip="complete order" (click)="completeOrder(order.id)">
+                        finalize order
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<div  *ngIf="isOrdersEmpty()"  class="empty">
+    <section class="page_404">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-10 col-sm-offset-1 text-center">
+                        <!-- Background Image and Error Number -->
+                        <div class="four_zero_four_bg">
+                            <h1 class="text-center"></h1>
+                        </div>
+                        
+                        <!-- Content Box -->
+                        <div class="contant_box_404">
+                            <h1 class="h2">There are no Delivery Yet</h1>
+                           
+                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+</div>

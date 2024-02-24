@@ -1,0 +1,19 @@
+<div class="favorites-panel">
+
+    <div class="info-section">
+        <h1>
+            Favorites Section
+        </h1>
+        <p>
+            Explore all your favorites in  one place  
+        </p>
+    </div>
+
+    <div *ngIf="currentUser &&   currentUser?.favoriteItems">
+        <app-favorite-items [favorites]="currentUser?.favoriteItems" ></app-favorite-items>
+      </div >
+      <div *ngIf="currentUser && currentUser?.favoriteRestaurants">        
+        <app-favorite-restaurants [favorites]="currentUser?.favoriteRestaurants"></app-favorite-restaurants>
+    </div>
+
+</div>

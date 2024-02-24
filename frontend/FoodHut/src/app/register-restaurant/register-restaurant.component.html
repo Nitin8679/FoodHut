@@ -1,0 +1,230 @@
+<div class="register-restaurant">
+    
+    <mat-card class="restaurantCard">
+        <mat-card-title>
+            Register Restaurant
+        </mat-card-title>
+        <mat-card-content>
+            <mat-stepper [linear]="true" orientation="horizontal" #stepper>
+                <mat-step [stepControl]="restaurantInfo">
+                    <form [formGroup]="restaurantInfo">
+                        <ng-template matStepLabel>Fill out Restaurant Details</ng-template>
+                        <div class="form-content">
+
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    restaurant name
+                                </mat-label>
+                                <input type="text" matInput formControlName="restaurantName" >
+                                <mat-error *ngIf="restaurantName.errors?.['required']">   
+                                    restaurant name is required
+                                </mat-error>
+                                <mat-error *ngIf="restaurantName.errors?.['minlength']">   
+                                    restaurant name must have  minimum 2 characters
+                                </mat-error>
+
+                            </mat-form-field>
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    contact no
+                                </mat-label>
+                                <input type="text" matInput formControlName="restaurantContact" maxlength="10">
+
+                                <mat-error *ngIf="restaurantContact.errors?.['required']">   
+                                    restaurant contact is required
+                                </mat-error>
+                                <mat-error *ngIf="restaurantContact.errors?.['pattern']">   
+                                    contact must be  a 10 digit number
+                                </mat-error>
+
+                            </mat-form-field>
+
+                        </div>
+
+                    </form>
+                    <div class="btnContainer">
+                        <button mat-button matStepperPrevious>Back</button>
+                        <button mat-button matStepperNext>Next</button>
+                      </div>
+                </mat-step>
+
+
+                <mat-step [stepControl]="ownerDetails">
+                    <form [formGroup]="ownerDetails">
+                        <ng-template matStepLabel>set owner details</ng-template>
+                        <div class="form-content">
+
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    full name
+                                </mat-label>
+                                <input type="text" matInput formControlName="ownerName">
+                                <mat-error *ngIf="ownerName.errors?.['required']">   
+                                    owner name is required
+                                </mat-error>
+                                <mat-error *ngIf="ownerName.errors?.['minlength']">   
+                                    owner name must have  minimum 2 characters
+                                </mat-error>
+
+
+                            </mat-form-field>
+
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    email
+                                </mat-label>
+                                <input type="email" matInput formControlName="ownerEmail" >
+                                <mat-error *ngIf="ownerEmail.errors?.['required']">   
+                                    owner email is required
+                                </mat-error>
+                                <mat-error *ngIf="ownerEmail.errors?.['pattern']">   
+                                    email must be in  valid format
+                                </mat-error>
+
+                            </mat-form-field>
+
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    contact
+                                </mat-label>
+                                <input type="text" matInput formControlName="ownerContact" maxlength="10" minlength="10">
+                                <mat-error *ngIf="ownerContact.errors?.['required']">   
+                                    owner contact is required
+                                </mat-error>
+                                <mat-error *ngIf="ownerContact.errors?.['pattern']">   
+                                    contact must be a 10 digit number
+                                </mat-error>
+
+                            </mat-form-field>
+                        </div>
+                    </form>
+                    <div class="btnContainer">
+                        <button mat-button matStepperPrevious>Back</button>
+                        <button mat-button matStepperNext>Next</button>
+                      </div>
+                </mat-step>
+
+                <mat-step [stepControl]="location">
+                    <form [formGroup]="location">
+                        <ng-template matStepLabel class="label">set the location of your restaurant</ng-template>
+                        <div class="form-content">
+                            <div class="field-container">
+                                <mat-form-field appearance="fill">
+                                    <mat-label>State</mat-label>
+                                    <mat-select matInput formControlName="restaurantState" (selectionChange)="stateChange($event)">
+                                      <mat-option disabled>Select a state</mat-option>                            
+                                      <mat-option *ngFor="let state of _states" [value]="state">{{ state }}</mat-option>
+                                    </mat-select>
+                                    <mat-error *ngIf="restaurantState.errors?.['required']">   
+                                        state is required
+                                    </mat-error>
+    
+                                  </mat-form-field>
+                              
+                                  <mat-form-field appearance="fill">
+                                    <mat-label>City</mat-label>
+                                    <mat-select matInput formControlName="restaurantCity">
+                                      <mat-option disabled>Select a city</mat-option>
+                                      <mat-option *ngFor="let city of _cities" [value]="city">{{ city }}</mat-option>
+                                    </mat-select>
+                                    <mat-error *ngIf="restaurantCity.errors?.['required']">   
+                                        city is required
+                                    </mat-error>
+    
+                                  </mat-form-field>
+
+                            </div>
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    area
+                                </mat-label>
+                                <input type="text" matInput formControlName="restaurantArea" >
+                                <mat-error *ngIf="restaurantArea.errors?.['required']">   
+                                    area is required
+                                </mat-error>
+
+                            </mat-form-field>
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    street
+                                </mat-label>
+                                <input type="text" matInput formControlName="restaurantStreet" >
+                                <mat-error *ngIf="restaurantStreet.errors?.['required']">   
+                                    street is required
+                                </mat-error>
+
+                            </mat-form-field>
+
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    zipcode
+                                </mat-label>
+                                <input type="text" matInput formControlName="restaurantZipcode" maxlength="6" minlength="5">
+                                <mat-error *ngIf="restaurantZipcode.errors?.['required']">   
+                                    zipcode is required
+                                </mat-error>
+                                <mat-error *ngIf="restaurantZipcode.errors?.['pattern']">   
+                                    Please enter proper zipcode
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+
+                    </form>
+                    <div class="btnContainer">
+                        <button mat-button matStepperPrevious>Back</button>
+                        <button mat-button matStepperNext>Next</button>
+                      </div>
+                </mat-step>
+
+                <mat-step [stepControl]="extraInfo">
+                    <form [formGroup]="extraInfo">
+                        <ng-template matStepLabel>set description of your restaurant</ng-template>
+                        <div class="form-content">
+
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    cuisine type
+                                </mat-label>
+                                <input type="text" matInput formControlName="cuisineType" >
+
+                                <mat-error *ngIf="cuisineType.errors?.['pattern']">   
+                                    cuisine type is required
+                                </mat-error>
+
+                                <mat-error *ngIf="cuisineType.errors?.['minlength']">   
+                                    must be atleast 2 characters long
+                                </mat-error>
+
+                            </mat-form-field>
+                            <mat-form-field appearance="fill">
+                                <mat-label>
+                                    description
+                                </mat-label>
+                                <textarea type="text" matInput formControlName="description" 
+                                placeholder="give a description for your restaurant">
+                                </textarea>
+                                <mat-error *ngIf="description.errors?.['maxlength']">   
+                                    cannot exceed more than 100 characters
+                                </mat-error>
+                            </mat-form-field>
+                        </div>
+
+                    </form>
+                    <div class="btnContainer">
+                        <button mat-button matStepperPrevious>Back</button>
+                        <button mat-button (click)="stepper.reset()">Reset</button>
+                      </div>
+                </mat-step>
+
+
+            </mat-stepper>
+            <mat-card-actions matTooltip="register" >
+                <button mat-fab extended (click)="register()" color="primary"
+                [disabled]="restaurantInfo.invalid || ownerDetails.invalid || location.invalid || extraInfo.invalid">
+                    register
+                </button>
+
+            </mat-card-actions>
+        </mat-card-content>
+    </mat-card>
+</div>

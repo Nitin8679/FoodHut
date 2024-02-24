@@ -1,0 +1,11 @@
+<div class="restaurants-in-location">
+    <div>
+        <p>
+            Browse restaurants near your location
+        </p>
+    </div>
+    <div class="media-scroller snaps-inline">
+        <app-restaurant-card *ngFor="let restaurant of restaurantsInLocation" [restaurant]="restaurant" ></app-restaurant-card>          
+      </div>
+
+</div>

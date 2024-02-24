@@ -1,0 +1,123 @@
+
+.delivery{
+    /* padding: 1em; */
+    display: flex;
+    flex-direction: row;
+
+    gap: 1em;
+}
+.col{
+    width: 100%;
+    background-color: beige;
+    border: 1px solid black;
+    border-radius: 8px;
+    align-self: flex-start;
+    padding: 1em;
+}
+.element{
+    border: 1px solid grey;
+    padding: 1em;
+    background-color: wheat;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px grey;
+}
+.list{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1em;
+    padding: 0.5em;
+}
+h1{
+    text-align: center;
+    /* background-color: red; */
+}
+/* .empty {
+    background-image: url('https://cdn.dribbble.com/users/665029/screenshots/16162764/media/3ea69cb1655fba401acc6c4328d38633.gif');
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .empty h3 {
+    margin-top: 20px; /* Adjust this value as needed for vertical spacing
+  }
+   
+  /*======================
+    404 page
+=======================*/
+
+.page_404 {
+    padding-left: 40px ;
+    background: #fff;
+    font-family: 'Arvo', serif;
+    overflow: hidden; /* Prevents scroll overflow */
+    margin-top: -100px;
+  }
+  
+  .page_404 img {
+    width: 100%;
+  }
+  
+  .four_zero_four_bg {
+    background-image: url(https://cdn.dribbble.com/users/665029/screenshots/16162764/media/3ea69cb1655fba401acc6c4328d38633.gif);
+    height: 800px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+  }
+  
+  .four_zero_four_bg h1 {
+    font-size: 120px;
+    margin-top: -400px; /* Adjust the value for vertical positioning */
+    z-index: 1;
+    color: black; /* Ensures the header text is visible on the image */
+  }
+  
+  .four_zero_four_bg h3 {
+    font-size: 80px;
+    color: black; /* Ensures the content text is visible on the image */
+  }
+  
+  .link_404 {
+    color: #fff !important;
+    padding: 10px 20px;
+    background: #39ac31;
+    margin: 20px 0;
+    display: inline-block;
+    
+    text-decoration: none;
+  }
+  .h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  .contant_box_404 {
+    margin-top: -90px; /* Adjust as needed */
+    z-index: 1;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+     /* Change this value to your preferred font size */
+  }
+  
+  

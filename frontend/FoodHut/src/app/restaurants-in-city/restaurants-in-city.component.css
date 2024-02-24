@@ -1,0 +1,62 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.restaurants-in-city {
+  --_spacer: var(--size-3);
+  
+  padding: var(--_spacer);
+
+  padding-top: 5em;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+}
+.ms-n5 {
+  margin-left: -40px;
+}
+.searchBox{
+  width: 26%;
+  margin: 0 auto;
+  margin-top: 27px;
+  margin-bottom: 28px;
+
+}
+.media-scroller {
+  display: grid;
+  gap: var(--_spacer);
+  grid-template-columns: repeat(3, 1fr); /* Set the number of columns to 3 */
+  padding: 0 var(--_spacer) var(--_spacer);
+  /* background-color: antiquewhite; */
+  padding: var(--_spacer);
+}
+
+/* Remove the scrolling and snapping styles */
+.media-scroller--with-groups {
+  grid-auto-columns: 80%;
+}
+
+.snaps-inline {
+  scroll-snap-type: none;
+  scroll-padding-inline: 0;
+}
+
+.snaps-inline > * {
+  scroll-snap-align: none;
+}
+.heading{
+    font-size: var(--size-6);
+    text-align: center;
+    /* background-color: red; */
+}

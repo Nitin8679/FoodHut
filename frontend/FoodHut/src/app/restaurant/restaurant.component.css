@@ -1,0 +1,105 @@
+/* Default styles */
+.restaurant {
+    padding: 1em 15%;
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: beige;
+  }
+  
+  /* Header styles */
+  .details-header {
+    background-color: burlywood;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .details-header > * {
+    width: 50%;
+  }
+  
+  /* Image container styles */
+  .img-container {
+    border: 1px solid black;
+    height: 100%;
+  }
+  
+  .img-container img {
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  
+  /* Info styles */
+  .info {
+    padding: 1em;
+  }
+  
+  /* Description styles */
+  .description {
+    background-color: bisque;
+    padding: 0.5em;
+  }
+  
+  .description p {
+    color: green;
+  }
+  
+  /* Footer styles */
+  .details-footer {
+    background-color: bisque;
+    padding: 0.5em;
+  }
+  
+  .address {
+    justify-content: space-between;
+  }
+  
+  .address div {
+    color: green;
+    font-weight: 500;
+    display: flex;
+    gap: 0.4em;
+  }
+  
+  /* Footer heading styles */
+  .details-footer h1 {
+    font-size: 2.5em;
+    padding: 0.1em;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  /* For smaller screens, adjust padding and layout */
+  @media screen and (max-width: 768px) {
+    .restaurant {
+      padding: 1em;
+    }
+  
+    .details-header,
+    .details-header > * {
+      width: 100%;
+    }
+  
+    .img-container img {
+      aspect-ratio: unset;
+      height: auto;
+    }
+  
+    /* Additional adjustments for smaller screens */
+    .details-header {
+      flex-direction: column;
+    }
+  
+    .description,
+    .details-footer {
+      padding: 1em; /* Increase padding for better readability */
+    }
+  
+    .address div {
+      flex-direction: column; /* Stack address elements on smaller screens */
+    }
+  }
+  

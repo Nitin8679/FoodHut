@@ -1,0 +1,33 @@
+<div class="customer-history">
+    <div class="col">
+        <div>            
+            <h1>
+                History        
+            </h1>
+            <h2>
+                Details of previous transactions
+            </h2>
+            <div>
+                <mat-chip-listbox aria-label="Fish selection">
+                    <mat-chip-option color="accent" selected (click)="filterChips('ALL')">All</mat-chip-option>
+                    <mat-chip-option (click)="filterChips('COMPLETED')">COMPLETED</mat-chip-option>
+                    <mat-chip-option (click)="filterChips('CANCELED')">CANCELED</mat-chip-option>
+                    <mat-chip-option (click)="filterChips('REJECTED')">REJECTED</mat-chip-option>
+                  </mat-chip-listbox>
+            </div>
+        </div>
+        <div class="list">
+            <div class="element" *ngFor="let order of customerHistory ">
+                <mat-accordion>
+                    <app-order-card [order]="order" [from]="userType"></app-order-card>
+                </mat-accordion>
+                <div class="footer">
+                    <h2 >
+                        ORDER STATUS: &nbsp;&nbsp;&nbsp;&nbsp; {{order?.status}}
+                    </h2>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

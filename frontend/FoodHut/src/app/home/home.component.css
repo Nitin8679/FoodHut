@@ -1,0 +1,138 @@
+/* home.component.css */
+
+/* home.component.css */
+.hero-container {
+
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.background-carousel {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-image {
+  flex: 1;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Smooth transition between images */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.carousel-image:first-child {
+  opacity: 1;
+  z-index: 1;
+}
+
+.hero-content {
+  position: absolute;
+  text-align: center;
+  z-index: 2; /* Ensure text is on top of images */
+  color: #fff;
+}
+
+@keyframes changeImage {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+  
+  .hero-content {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 1.5rem;
+  }
+  
+.app-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-shadow: 1px 4px 1px black;
+}
+
+.app-subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    text-shadow: 1px 4px 1px black;
+  }
+
+
+.explore-btn{
+    /* background-color: aquamarine; */
+    /* padding: 1em; */
+    
+    text-align: center;
+    width: 25%;
+    height: 8rem;
+    border-radius: 10px;
+    border: 1px solid gold;
+    font-size: 1.4em;
+    transition: transform 0.3s;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: white;
+    
+    font-weight: bold;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-shadow: 1px 1px 4px black;
+
+
+}
+.explore-btn:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
+    box-shadow: 4px 4px 20px 5px black;
+}
+.top{
+    display: flex;
+    justify-content: center;
+    padding: 4em;
+    gap: 2em;
+}
+
+.fave-restu{
+
+background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1d/30/54/b2/bidri-ambience.jpg?w=1200&h=-1&s=1');
+
+  
+}
+.fave-items{
+  background-image: url('https://images.indianexpress.com/2023/12/food.jpg');
+
+}

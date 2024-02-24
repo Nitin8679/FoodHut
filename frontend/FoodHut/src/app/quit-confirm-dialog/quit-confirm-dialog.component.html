@@ -1,0 +1,8 @@
+<div (click)="onOverlayClick($event)" class="quit-confirm" mat-dialog>
+    <h1 mat-dialog-title>There are unsaved changes on this form. Are you sure you want to quit?</h1>
+    <div mat-dialog-actions>
+      <!-- <button mat-button (click)="onNoClick()">No Thanks</button> -->
+      <button mat-flat-button [mat-dialog-close]="false" >No</button>
+      <button mat-flat-button [mat-dialog-close]="true" cdkFocusInitial color="warn">Yes</button>
+    </div>
+</div>

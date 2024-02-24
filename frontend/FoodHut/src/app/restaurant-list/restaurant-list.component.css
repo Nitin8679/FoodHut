@@ -1,0 +1,60 @@
+.restarurant-list{
+    padding: 1em;
+    padding-top: 6em;
+    /* width: 100%; */
+    background-color: gray;
+}
+.restaurants-container{
+    background-color: lightcoral;
+    padding: 1em;
+   /* padding: 1em 25%; */
+   display: flex;
+   flex-direction: column;
+   gap: 1em;
+   width: 50%;
+}
+mat-card{
+    padding: 1em;
+    border: 2px solid blue;
+    transition: transform 0.5s;
+    background-color: lightcyan;
+}
+mat-card:hover{
+    opacity: 0.5;
+    cursor: pointer;
+
+    transform: scale(1.05); 
+    border: 3px solid red;
+}
+.restaurant-location{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap: 0.5em;
+    color: green;
+
+}
+
+.component-content{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.header > :first-child{
+    font-size: 1.6em;
+    font-weight: 500;
+}
+.restarurant-list div h1{
+    text-align:  center;
+    font-weight: 900;
+    font-size: 3em;
+    color: aliceblue;
+}

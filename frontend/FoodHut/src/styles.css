@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+
+
+@media only screen and (max-width: 320px) {
+    body {
+      font-size: 12px; 
+    }
+  
+
+  }
+  
+  /* Breakpoint for screens between 321px and 480px */
+  @media only screen and (min-width: 321px) and (max-width: 480px) {
+    body {
+      font-size: 14px; 
+    }
+  
+
+  }
+  
+  /* Breakpoint for screens between 481px and 768px */
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+      font-size: 15px;
+    }
+  
+  }
+  

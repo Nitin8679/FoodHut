@@ -1,0 +1,27 @@
+.add-item{
+    width: 40vw;
+}
+mat-card{
+    background-color: rgba(245, 245, 220, 0.705);
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    /* width: 100%; */
+    
+}
+mat-card-title{
+    text-align: center;
+}
+.item-form{
+    display: flex;
+    flex-direction: column;
+}
+mat-card-actions{
+    display: flex;
+    flex-direction: column;
+
+}
+button{
+    width: 50%;
+}

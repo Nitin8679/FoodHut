@@ -1,0 +1,47 @@
+.restaurant-card{
+    width: 50%;
+    padding: 1em;
+    border: 1px solid black;
+    /* height: 50%; */
+    
+}
+
+.restaurant-image{
+    width: 100%;
+    /* height: 50%; */
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.img-container img{
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; */
+
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: contain;
+}
+
+.main-panel{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    background-color: cornsilk; 
+    
+}
+.field-row1 {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em;
+    gap: 0.5em;
+}
+.field-row1 > *{
+width: 100%;
+}
+
+/* form{
+    border: 1px solid black;
+} */

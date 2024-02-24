@@ -1,0 +1,186 @@
+.register-restaurant{
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTM2OTgxMy1pbWFnZS1rd3Z4eHA5MS5qcGc.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+
+
+
+}
+mat-card-title{
+    text-align: center;
+    padding: 1em;
+}
+.form-content{
+    /* width: 100%; */
+    /* background-color: red; */
+    
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid green;
+    border-radius: 1em;
+}
+.field-container{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+
+}
+mat-form-field{
+    width: 100%;
+}
+mat-card-actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+mat-card-actions button{
+    width: 50%;
+}
+mat-card{
+    box-shadow: 1px 1px 20px 2px black;
+    background: rgba(255, 255, 255, 0.5);
+    transition: backdrop-filter 0.2s ease-in, transform 0.3s ease-out;
+    background-attachment: fixed;
+    backdrop-filter: blur(0);
+    min-width: 580px;
+    /* max-width: 580px; */
+    /* height: 511px; */
+    /* overflow: auto; */
+    margin: 0 auto;
+    margin-top: 35px;
+}
+.btnContainer{
+    display: flex;
+    margin-top: 12px;
+    justify-content: space-evenly;
+}
+mat-card:hover {
+    backdrop-filter: blur(25px);
+}
+mat-card-content{
+    /* box-shadow: 1px 1px 1px 1px black; */
+    /* background: rgba(255, 255, 255, 0.01); */
+    transition: backdrop-filter 0.2s ease-in, transform 0.3s ease-out;
+    background-attachment: fixed;
+    /* backdrop-filter: blur(0);    */
+}
+mat-stepper{
+    /* box-shadow: 1px 1px 1px 1px black; */
+    background: rgba(255, 255, 255, 0.01);
+    transition: backdrop-filter 0.2s ease-in, transform 0.3s ease-out;
+    background-attachment: fixed;
+    backdrop-filter: blur(0);   
+}
+
+@media screen and (min-width:281px) and (max-width:400px) {
+    .register-restaurant{
+        /* background-image: none; */
+        background-color: red;
+        /* width: 50%; */
+        padding-left:0px ;
+        padding-top: 80px;
+    }
+    .restaurantCard{
+        min-width:300px;
+        max-width: 300px;
+        margin-left: 35px;
+        height:545px;
+        overflow: auto;
+        
+        /* background-color: ; */
+    }
+    mat-error{
+        font-size: 10px;
+    }
+    mat-form-field{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .field-container{
+        flex-direction: column;
+    }
+    .btnContainer{
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+}
+@media screen and (max-width:280px)  {
+    .register-restaurant{
+        /* background-image: none; */
+        background-color: red;
+        /* width: 50%; */
+        padding-left:0px ;
+        padding-top: 60px;
+    }
+    .restaurantCard{
+        min-width:250px;
+        max-width: 250px;
+        margin-left: 25px;
+        height:545px;
+        overflow: auto;
+        
+        /* background-color: ; */
+    }
+    mat-error{
+        font-size: 7px;
+    }
+    mat-form-field{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .field-container{
+        flex-direction: column;
+    }
+    .btnContainer{
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+}
+@media screen and (min-width:401px) and (max-width:460px) {
+    .register-restaurant{
+        /* background-image: none; */
+        background-color: red;
+        /* width: 50%; */
+        padding-left:0px ;
+        padding-top: 80px;
+    }
+    .restaurantCard{
+        min-width:300px;
+        max-width: 300px;
+        margin-left: 65px;
+        height:545px;
+        overflow: auto;
+        
+        /* background-color: ; */
+    }
+    mat-error{
+        font-size: 10px;
+    }
+    mat-form-field{
+        width: 100%;
+        margin-top: 24px;
+    }
+    .field-container{
+        flex-direction: column;
+    }
+    .btnContainer{
+        margin-top: 8px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+   
+}

@@ -1,0 +1,63 @@
+/*======================
+    404 page
+=======================*/
+
+.page_404 {
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+  overflow: hidden; /* Prevents scroll overflow */
+}
+
+.page_404 img {
+  width: 100%;
+}
+
+.four_zero_four_bg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.four_zero_four_bg h1 {
+  font-size: 120px;
+  margin-top: -400px; /* Adjust the value for vertical positioning */
+  z-index: 1;
+  color: black; /* Ensures the header text is visible on the image */
+}
+
+.four_zero_four_bg h3 {
+  font-size: 80px;
+  color: black; /* Ensures the content text is visible on the image */
+}
+
+.link_404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+  
+  text-decoration: none;
+}
+.h2{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 40px;
+}
+.contant_box_404 {
+  margin-top: -90px; /* Adjust as needed */
+  z-index: 1;
+  text-align: center;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+   /* Change this value to your preferred font size */
+}
+

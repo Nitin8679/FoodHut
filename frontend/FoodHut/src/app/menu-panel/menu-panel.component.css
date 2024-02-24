@@ -1,0 +1,47 @@
+.menu-panel {
+    padding: 0.5em;
+  }
+  
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em;
+  }
+  
+  .element {
+    border: 1px dotted black;
+  }
+  .ms-n5 {
+    margin-left: -40px;
+  }
+  .searchBox{
+    width: 26%;
+    /* width: 13%; */
+    margin: 0 auto;
+    margin-left: 0px;
+    margin-top: 27px;
+    margin-bottom: 28px;
+    /* padding: 15px; */
+    /* background-color: red; */
+  }
+  .searchInput{
+    /* background-color: yellow; */
+    /* border-radius: 12px; */
+  }
+  /* mat-form-field{
+    color: blueviolet;
+  } */
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .menu-panel {
+      padding: 1em; /* Increase padding for better readability */
+    }
+  
+    .list {
+      flex-direction: column; /* Stack list items vertically */
+    }
+    
+  
+  }
+  

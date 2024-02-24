@@ -1,0 +1,57 @@
+<div class="home">
+  <div class="hero-container">
+    <div class="background-carousel">
+      <div *ngFor="let imageUrl of imageUrls; let i = index"
+           [ngStyle]="{ 'background-image': 'url(' + imageUrl + ')', 'opacity': i === currentImageIndex ? '1' : '0' }"
+           class="carousel-image"></div>
+    </div>
+    <div class="hero-content">
+      <h1 class="app-title">Welcome to Food Hut</h1>
+      <p class="app-subtitle">Find the best restaurants, cafés and bars in India</p>
+    </div>
+  </div>
+
+
+
+  
+  
+  <div class="body">
+
+    <section class="top" *ngIf="isLoggedIn" >
+
+      <div class="explore-btn fave-items" (click)="favoritesBtn()" >
+        Explore your favorites
+        <mat-icon>
+          favorite
+        </mat-icon>
+      </div>
+      <div class="explore-btn fave-restu" (click)="resturantLocationBtn()">
+        Find Restaurants near you!
+
+        <mat-icon>
+          my_location
+        </mat-icon>
+      </div>
+    </section>
+
+
+    <!-- <div *ngIf="isLoggedIn" class="favorites-section" >
+      <div *ngIf="currentUser &&   currentUser?.favoriteItems">
+        <app-favorite-items [favorites]="currentUser?.favoriteItems" ></app-favorite-items>
+      </div >
+      <div *ngIf="currentUser && currentUser?.favoriteRestaurants">
+        
+        <app-favorite-restaurants [favorites]="currentUser?.favoriteRestaurants"></app-favorite-restaurants>
+      </div>
+    </div> -->
+
+<!-- 
+    <div class=" restaurants-in-location" *ngIf="currentUser && isLoggedIn ">
+      <app-restaurants-in-location [city]="currentUser?.address.city" ></app-restaurants-in-location>
+    </div> -->
+
+    <div>
+      <app-location-list></app-location-list>   
+    </div>
+  </div>
+</div>

@@ -1,0 +1,21 @@
+<!-- <div class="restaurant-card" (click)="goToRestaurant(restaurant.id)">
+
+    <div class="media-element" >
+        <img [src]="imageUrl" alt="not found">
+        <p class="title">{{restaurant?.name}}</p>
+        <p>
+            {{restaurant?.cuisineType}}
+        </p>
+        
+    </div>
+    
+</div> -->
+<mat-card class="restaurantCard" (click)="goToRestaurant(restaurant.id)">
+    <mat-card-header>
+        <img [src]="imageUrl" mat-card-xl-image class="restaurantCardImg">
+    </mat-card-header>
+    <mat-card-content class="restaurantCardContent">
+        <h4 class="restaurantHeading">{{restaurant.name}}</h4>
+        <p class="restaurantContent">{{restaurant.cuisineType}} </p>
+    </mat-card-content>
+</mat-card>

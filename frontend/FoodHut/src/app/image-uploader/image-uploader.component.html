@@ -1,0 +1,36 @@
+<div class="image-uploader">
+
+    <div>
+        <div>
+            <p>
+                upload an image( only PNGs are accepted  )
+            </p>
+        </div>
+        <input type="file" (change)="onFileChanged($event)" #fileInput accept=".png" >
+
+    
+        <button mat-flat-button color="primary" (click)="upload()">
+            upload
+        </button>
+        <!-- <button mat-flat-button color="primary" (click)="check()">
+            check
+        </button> -->
+    </div>    
+    <div>
+        
+        <mat-form-field>
+            <mat-label>
+                file
+            </mat-label>
+            <input type="text" matInput [formControl]="fileToDownload">
+        </mat-form-field>
+        <button mat-flat-button color="primary" (click)="download()">`
+            download
+        </button>
+
+    </div>
+    <div>
+
+    </div>
+    <img [src]="image" alt="image not found">
+</div>

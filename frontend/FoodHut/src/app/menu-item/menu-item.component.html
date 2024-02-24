@@ -1,0 +1,36 @@
+<div class="menu-item">
+    <div class="img-container">
+        <img [src]="imageUrl" alt="not found">
+    </div>
+    <div class="info">
+        <div class="details">
+            <p>
+                {{item?.name}}
+            </p>
+            <p>
+                ₹ {{item?.price}}
+            </p>
+            <p>
+                {{item?.category}}
+            </p>
+            <p class="description">
+                {{item?.description}}
+            </p>
+        </div>
+    </div>
+    <div class="buttons">
+        <button mat-mini-fab matTooltip="{{isFavorite ?'Remove item from favorites':'Add item to favorites' }}" 
+        (click)="addItemToFavorites()"  [style.backgroundColor]="isFavorite? 'gold': 'grey'" 
+        color="accent" [disabled]="!isLoggedIn">
+            <mat-icon>
+                star
+            </mat-icon>
+        </button>
+        <button mat-flat-button color="primary" (click)="addToCart()" [disabled]="!isLoggedIn">
+            add to cart
+            <mat-icon>
+                add_shopping_cart
+            </mat-icon>
+        </button>
+    </div>
+</div>

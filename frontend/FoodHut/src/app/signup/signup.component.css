@@ -1,0 +1,94 @@
+.signup {
+    padding: 1em;
+    padding-top: 10em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://thumbs.dreamstime.com/b/balanced-diet-food-background-balanced-diet-food-background-organic-food-healthy-nutrition-superfoods-meat-fish-legumes-nuts-121937194.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    height: 100vh;
+    overflow: hidden;
+}
+
+mat-card {
+    padding: 1em;
+    box-shadow: 1px 1px 1px 1px black;
+    background: rgba(255, 255, 255,0.6);
+    backdrop-filter: blur(10px);
+    height: 50em;
+    transition: backdrop-filter 0.2s ease-in, transform 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+mat-card:hover {
+    backdrop-filter: blur(50px);
+}
+
+mat-card-title h2 {
+    text-align: center;
+}
+
+mat-form-field {
+    width: 100%;
+}
+
+mat-card-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    justify-content: center;
+    padding: 1em 25%;
+    width: 100%;
+}
+
+mat-card-actions p {
+    text-shadow: 1.5px 1px 1px black;
+}
+
+mat-card-actions p a {
+    text-decoration: none;
+    color: orange;
+}
+
+mat-card-actions p a:hover {
+    color: black;
+}
+
+mat-card-content {
+    background: rgba(255, 255, 255, 0);
+}
+
+form {
+    background: rgba(255, 255, 255, 0);
+}
+
+mat-stepper {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.field-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 1em;
+}
+
+.form-content {
+    padding: 1em;
+}
+
+button {
+    width: 100%;
+}
+
+.form-error {
+    padding: 0.5em;
+    padding-top: 2em;
+    text-align: center;
+    font-size: 1.5rem;
+}

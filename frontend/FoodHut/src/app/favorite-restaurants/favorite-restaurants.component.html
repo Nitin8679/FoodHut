@@ -1,0 +1,11 @@
+<div class="favorite-restaurants">
+    <div>
+        <p>
+            Favorite Restaurants
+        </p>
+    </div>
+    <div class="media-scroller snaps-inline">
+        <app-restaurant-card *ngFor="let restaurant of favoriteRestaurants" [restaurant]="restaurant" ></app-restaurant-card>            
+    </div>
+
+</div>

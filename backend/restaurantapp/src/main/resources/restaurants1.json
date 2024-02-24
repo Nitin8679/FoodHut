@@ -1,0 +1,443 @@
+[
+  {
+    "id": "restaurant1",
+    "name": "Pizza Palace",
+    "contact": "1800244622",
+    "userId": "",
+    "cuisineType": "Italian",
+    "description": "Best place for authentic pizzas",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "khaja Bhadher Street",
+      "area": "Royapettah",
+      "doorNo": "25",
+      "zipcode": "600014"
+    }
+  },
+  {
+    "id": "restaurant2",
+    "name": "Pasta Paradise",
+    "contact": "18005551234",
+    "userId": "",
+    "cuisineType": "Italian",
+    "description": "Delicious pasta dishes in the heart of Chennai",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Anna Salai",
+      "area": "Nungambakkam",
+      "doorNo": "15",
+      "zipcode": "600006"
+    }
+  },
+  {
+    "id": "restaurant3",
+    "name": "Curry Corner",
+    "contact": "18009998888",
+    "userId": "",
+    "cuisineType": "Indian",
+    "description": "Authentic Indian curries for every taste bud",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Mount Road",
+      "area": "Saidapet",
+      "doorNo": "8",
+      "zipcode": "600015"
+    }
+  },
+  {
+    "id": "restaurant4",
+    "name": "Sushi Sensation",
+    "contact": "18007773333",
+    "userId": "",
+    "cuisineType": "Japanese",
+    "description": "Savor the flavors of Japan in Chennai",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "T Nagar",
+      "area": "Nandanam",
+      "doorNo": "12",
+      "zipcode": "600017"
+    }
+  },
+  {
+    "id": "restaurant5",
+    "name": "Burger Binge",
+    "contact": "18008884444",
+    "userId": "",
+    "cuisineType": "American",
+    "description": "Indulge in the juiciest burgers in Chennai",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Egmore",
+      "area": "Kilpauk",
+      "doorNo": "21",
+      "zipcode": "600010"
+    }
+  },
+  {
+    "id": "restaurant6",
+    "name": "Tandoori Temptations",
+    "contact": "18006667777",
+    "userId": "",
+    "cuisineType": "North Indian",
+    "description": "Delight in the flavors of North Indian cuisine",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Velachery",
+      "area": "Guindy",
+      "doorNo": "9",
+      "zipcode": "600032"
+    }
+  },
+  {
+    "id": "restaurant7",
+    "name": "Seafood Haven",
+    "contact": "18003332222",
+    "userId": "",
+    "cuisineType": "Seafood",
+    "description": "Immerse yourself in the freshest seafood delights",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Besant Nagar",
+      "area": "Adyar",
+      "doorNo": "18",
+      "zipcode": "600090"
+    }
+  },
+  {
+    "id": "restaurant8",
+    "name": "Mediterranean Marvel",
+    "contact": "18001119999",
+    "userId": "",
+    "cuisineType": "Mediterranean",
+    "description": "Experience the richness of Mediterranean cuisine",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Koyambedu",
+      "area": "Anna Nagar",
+      "doorNo": "14",
+      "zipcode": "600107"
+    }
+  },
+  {
+    "id": "restaurant9",
+    "name": "Vegan Delight",
+    "contact": "18002221111",
+    "userId": "",
+    "cuisineType": "Vegan",
+    "description": "Indulge in guilt-free and delicious vegan offerings",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Mogappair",
+      "area": "Ambattur",
+      "doorNo": "10",
+      "zipcode": "600037"
+    }
+  },
+  {
+    "id": "restaurant10",
+    "name": "Dosa Diner",
+    "contact": "18004443333",
+    "userId": "",
+    "cuisineType": "South Indian",
+    "description": "Savor the authentic flavors of South Indian dosas",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@pizzapalace.com",
+      "contact": "1800244622",
+      "fullName": "Pizza Palace Corporation"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Chennai",
+      "street": "Mogappair",
+      "area": "Ambattur",
+      "doorNo": "10",
+      "zipcode": "600037"
+    }
+  },
+  {
+    "id": "restaurant11",
+    "name": "Madurai Spice Hub",
+    "contact": "18005557777",
+    "userId": "",
+    "cuisineType": "South Indian",
+    "description": "Experience the authentic flavors of Madurai's traditional spices",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraispicehub.com",
+      "contact": "18005557777",
+      "fullName": "Madurai Spice Hub"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "Gandhi Road",
+      "area": "Periyar",
+      "doorNo": "15",
+      "zipcode": "625001"
+    }
+  },
+  {
+    "id": "restaurant12",
+    "name": "Madurai Dosa Delights",
+    "contact": "18004448888",
+    "userId": "",
+    "cuisineType": "South Indian",
+    "description": "A variety of mouth-watering dosas served with traditional chutneys",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraidosa.com",
+      "contact": "18004448888",
+      "fullName": "Madurai Dosa Delights"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "Anna Salai",
+      "area": "Ellis Nagar",
+      "doorNo": "22",
+      "zipcode": "625010"
+    }
+  },
+  {
+    "id": "restaurant13",
+    "name": "Madurai Biryani Paradise",
+    "contact": "18001116666",
+    "userId": "",
+    "cuisineType": "Biryani",
+    "description": "Savor the richness of aromatic and flavorful Madurai biryanis",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraibiryani.com",
+      "contact": "18001116666",
+      "fullName": "Madurai Biryani Paradise"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "Kamarajar Salai",
+      "area": "Arignar Anna Nagar",
+      "doorNo": "10",
+      "zipcode": "625002"
+    }
+  },
+  {
+    "id": "restaurant14",
+    "name": "Madurai Seafood Haven",
+    "contact": "18007770000",
+    "userId": "",
+    "cuisineType": "Seafood",
+    "description": "Delight in the freshest seafood delights in the heart of Madurai",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraiseafood.com",
+      "contact": "18007770000",
+      "fullName": "Madurai Seafood Haven"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "Kalavasal",
+      "area": "SS Colony",
+      "doorNo": "12",
+      "zipcode": "625016"
+    }
+  },
+  {
+    "id": "restaurant15",
+    "name": "Madurai Sweet Treats",
+    "contact": "18008889999",
+    "userId": "",
+    "cuisineType": "Sweets",
+    "description": "Indulge in a variety of delicious and traditional Madurai sweets",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraisweets.com",
+      "contact": "18008889999",
+      "fullName": "Madurai Sweet Treats"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "South Masi Street",
+      "area": "Simakkal",
+      "doorNo": "8",
+      "zipcode": "625001"
+    }
+  },
+  {
+    "id": "restaurant16",
+    "name": "Madurai Tandoori Temptations",
+    "contact": "18006661111",
+    "userId": "",
+    "cuisineType": "North Indian",
+    "description": "Delight in the flavors of North Indian tandoori dishes",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraitandoori.com",
+      "contact": "18006661111",
+      "fullName": "Madurai Tandoori Temptations"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "Thirumalai Nayakkar Mahal Road",
+      "area": "Madurai Main",
+      "doorNo": "18",
+      "zipcode": "625001"
+    }
+  },
+  {
+    "id": "restaurant17",
+    "name": "Madurai Pizza Paradise",
+    "contact": "18009992222",
+    "userId": "",
+    "cuisineType": "Italian",
+    "description": "Savor the best pizzas with a Madurai twist",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraipizza.com",
+      "contact": "18009992222",
+      "fullName": "Madurai Pizza Paradise"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "West Veli Street",
+      "area": "Chinna Chokkikulam",
+      "doorNo": "25",
+      "zipcode": "625002"
+    }
+  },
+  {
+    "id": "restaurant18",
+    "name": "Madurai Noodle House",
+    "contact": "18004441111",
+    "userId": "",
+    "cuisineType": "Chinese",
+    "description": "Indulge in a variety of delicious and flavorful noodles",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@madurainoodles.com",
+      "contact": "18004441111",
+      "fullName": "Madurai Noodle House"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "Bypass Road",
+      "area": "Pudur",
+      "doorNo": "15",
+      "zipcode": "625007"
+    }
+  },
+  {
+    "id": "restaurant19",
+    "name": "Madurai BBQ Junction",
+    "contact": "18006662222",
+    "userId": "",
+    "cuisineType": "Barbecue",
+    "description": "Experience the smoky flavors of barbecue in Madurai",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraibbq.com",
+      "contact": "18006662222",
+      "fullName": "Madurai BBQ Junction"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "Kochadai",
+      "area": "Villapuram",
+      "doorNo": "12",
+      "zipcode": "625016"
+    }
+  },
+  {
+    "id": "restaurant20",
+    "name": "Madurai Juice Bar",
+    "contact": "18008883333",
+    "userId": "",
+    "cuisineType": "Beverages",
+    "description": "Refresh with a variety of fresh and healthy juices",
+    "rating": 0,
+    "owner": {
+      "email": "contactus@maduraijuice.com",
+      "contact": "18008883333",
+      "fullName": "Madurai Juice Bar"
+    },
+    "address": {
+      "state": "TamilNadu",
+      "city": "Madurai",
+      "street": "South Masi Street",
+      "area": "Simakkal",
+      "doorNo": "8",
+      "zipcode": "625001"
+    }
+  }
+
+]

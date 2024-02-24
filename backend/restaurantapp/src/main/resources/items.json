@@ -1,0 +1,1712 @@
+[
+  {
+    "id": "pizza1",
+    "restaurantId": "restaurant1",
+    "name": "Pepperoni Deluxe",
+    "price": 270,
+    "category": "Pizza",
+    "description": "Classic pepperoni slices with extra cheese",
+    "rating": 0
+  },
+  {
+    "id": "pizza2",
+    "restaurantId": "restaurant1",
+    "name": "Vegetarian Supreme",
+    "price": 250,
+    "category": "Pizza",
+    "description": "An assortment of fresh vegetables on a thin crust",
+    "rating": 0
+  },
+  {
+    "id": "pizza3",
+    "restaurantId": "restaurant1",
+    "name": "Margherita Classic",
+    "price": 240,
+    "category": "Pizza",
+    "description": "The timeless combination of tomato, basil, and mozzarella",
+    "rating": 0
+  },
+  {
+    "id": "pizza4",
+    "restaurantId": "restaurant1",
+    "name": "BBQ Chicken Feast",
+    "price": 280,
+    "category": "Pizza",
+    "description": "Grilled chicken with BBQ sauce and onions",
+    "rating": 0
+  },
+  {
+    "id": "pizza5",
+    "restaurantId": "restaurant1",
+    "name": "Hawaiian Paradise",
+    "price": 260,
+    "category": "Pizza",
+    "description": "Ham, pineapple, and cheese for a tropical flavor",
+    "rating": 0
+  },
+  {
+    "id": "pizza6",
+    "restaurantId": "restaurant1",
+    "name": "Mushroom Lovers",
+    "price": 255,
+    "category": "Pizza",
+    "description": "A savory blend of mushrooms on a crispy crust",
+    "rating": 0
+  },
+  {
+    "id": "pizza7",
+    "restaurantId": "restaurant1",
+    "name": "Spinach and Feta Delight",
+    "price": 245,
+    "category": "Pizza",
+    "description": "Fresh spinach and creamy feta cheese on a thin base",
+    "rating": 0
+  },
+  {
+    "id": "pizza8",
+    "restaurantId": "restaurant1",
+    "name": "Buffalo Chicken Kick",
+    "price": 275,
+    "category": "Pizza",
+    "description": "Spicy buffalo chicken with blue cheese dressing",
+    "rating": 0
+  },
+  {
+    "id": "pizza9",
+    "restaurantId": "restaurant1",
+    "name": "Truffle Mushroom Elegance",
+    "price": 295,
+    "category": "Pizza",
+    "description": "Truffle-infused mushrooms on a gourmet crust",
+    "rating": 0
+  },
+  {
+    "id": "pizza10",
+    "restaurantId": "restaurant1",
+    "name": "Meat Lovers Extravaganza",
+    "price": 290,
+    "category": "Pizza",
+    "description": "A hearty mix of various meats for the carnivores",
+    "rating": 0
+  },
+  {
+    "id": "item1",
+    "restaurantId": "restaurant2",
+    "name": "Alfredo Pasta",
+    "price": 220,
+    "category": "Pasta",
+    "description": "Creamy Alfredo sauce with fettuccine noodles",
+    "rating": 0
+  },
+  {
+    "id": "item2",
+    "restaurantId": "restaurant2",
+    "name": "Spaghetti Bolognese",
+    "price": 200,
+    "category": "Pasta",
+    "description": "Classic Bolognese sauce with ground meat and spaghetti",
+    "rating": 0
+  },
+  {
+    "id": "item3",
+    "restaurantId": "restaurant2",
+    "name": "Margherita Pizza",
+    "price": 250,
+    "category": "Pizza",
+    "description": "Classic tomato, basil, and mozzarella cheese pizza",
+    "rating": 0
+  },
+  {
+    "id": "item4",
+    "restaurantId": "restaurant2",
+    "name": "Chicken Pesto Penne",
+    "price": 230,
+    "category": "Pasta",
+    "description": "Penne pasta with grilled chicken and basil pesto",
+    "rating": 0
+  },
+  {
+    "id": "item5",
+    "restaurantId": "restaurant2",
+    "name": "Vegetarian Supreme Pizza",
+    "price": 260,
+    "category": "Pizza",
+    "description": "A medley of fresh vegetables on a thin crust",
+    "rating": 0
+  },
+  {
+    "id": "item6",
+    "restaurantId": "restaurant2",
+    "name": "Carbonara Spaghetti",
+    "price": 210,
+    "category": "Pasta",
+    "description": "Spaghetti with a rich and creamy carbonara sauce",
+    "rating": 0
+  },
+  {
+    "id": "item7",
+    "restaurantId": "restaurant2",
+    "name": "Seafood Marinara",
+    "price": 280,
+    "category": "Pasta",
+    "description": "Assorted seafood with marinara sauce and linguine",
+    "rating": 0
+  },
+  {
+    "id": "item8",
+    "restaurantId": "restaurant2",
+    "name": "BBQ Chicken Pizza",
+    "price": 270,
+    "category": "Pizza",
+    "description": "Grilled chicken with BBQ sauce on a crispy crust",
+    "rating": 0
+  },
+  {
+    "id": "item9",
+    "restaurantId": "restaurant2",
+    "name": "Veggie Alfredo Penne",
+    "price": 240,
+    "category": "Pasta",
+    "description": "Alfredo sauce with a mix of vegetables and penne pasta",
+    "rating": 0
+  },
+  {
+    "id": "item10",
+    "restaurantId": "restaurant2",
+    "name": "Mushroom Lovers Pizza",
+    "price": 255,
+    "category": "Pizza",
+    "description": "A savory blend of mushrooms on a crispy crust",
+    "rating": 0
+  },
+  {
+    "id": "item21",
+    "restaurantId": "restaurant3",
+    "name": "Butter Chicken",
+    "price": 250,
+    "category": "Curry",
+    "description": "Tender chicken cooked in a rich and creamy tomato-based sauce",
+    "rating": 0
+  },
+  {
+    "id": "item22",
+    "restaurantId": "restaurant3",
+    "name": "Vegetable Biryani",
+    "price": 220,
+    "category": "Biryani",
+    "description": "Fragrant basmati rice cooked with mixed vegetables and aromatic spices",
+    "rating": 0
+  },
+  {
+    "id": "item23",
+    "restaurantId": "restaurant3",
+    "name": "Palak Paneer",
+    "price": 240,
+    "category": "Curry",
+    "description": "Paneer cubes in a creamy spinach sauce",
+    "rating": 0
+  },
+  {
+    "id": "item24",
+    "restaurantId": "restaurant3",
+    "name": "Chicken Tikka Masala",
+    "price": 280,
+    "category": "Curry",
+    "description": "Grilled chicken in a flavorful and aromatic masala sauce",
+    "rating": 0
+  },
+  {
+    "id": "item25",
+    "restaurantId": "restaurant3",
+    "name": "Chana Masala",
+    "price": 210,
+    "category": "Curry",
+    "description": "Chickpeas cooked in a spiced tomato-based gravy",
+    "rating": 0
+  },
+  {
+    "id": "item26",
+    "restaurantId": "restaurant3",
+    "name": "Hyderabadi Dum Biryani",
+    "price": 270,
+    "category": "Biryani",
+    "description": "Basmati rice layered with marinated meat and slow-cooked to perfection",
+    "rating": 0
+  },
+  {
+    "id": "item27",
+    "restaurantId": "restaurant3",
+    "name": "Aloo Gobi",
+    "price": 230,
+    "category": "Curry",
+    "description": "Potatoes and cauliflower cooked with Indian spices",
+    "rating": 0
+  },
+  {
+    "id": "item28",
+    "restaurantId": "restaurant3",
+    "name": "Rogan Josh",
+    "price": 260,
+    "category": "Curry",
+    "description": "Tender meat cooked in a rich and aromatic red curry sauce",
+    "rating": 0
+  },
+  {
+    "id": "item29",
+    "restaurantId": "restaurant3",
+    "name": "Paneer Tikka",
+    "price": 290,
+    "category": "Appetizer",
+    "description": "Marinated and grilled paneer skewers served with mint chutney",
+    "rating": 0
+  },
+  {
+    "id": "item30",
+    "restaurantId": "restaurant3",
+    "name": "Dal Makhani",
+    "price": 250,
+    "category": "Curry",
+    "description": "Slow-cooked black lentils in a creamy tomato-based sauce",
+    "rating": 0
+  },
+  {
+    "id": "item31",
+    "restaurantId": "restaurant4",
+    "name": "Nigiri Sampler",
+    "price": 180,
+    "category": "Sushi",
+    "description": "Assortment of various nigiri sushi pieces",
+    "rating": 0
+  },
+  {
+    "id": "item32",
+    "restaurantId": "restaurant4",
+    "name": "Miso Soup",
+    "price": 90,
+    "category": "Soup",
+    "description": "Traditional Japanese soybean soup with seaweed and tofu",
+    "rating": 0
+  },
+  {
+    "id": "item33",
+    "restaurantId": "restaurant4",
+    "name": "Sashimi Platter",
+    "price": 220,
+    "category": "Sushi",
+    "description": "Fresh slices of raw fish served with wasabi and soy sauce",
+    "rating": 0
+  },
+  {
+    "id": "item34",
+    "restaurantId": "restaurant4",
+    "name": "Teriyaki Chicken Donburi",
+    "price": 200,
+    "category": "Donburi",
+    "description": "Grilled chicken with teriyaki sauce over a bed of rice",
+    "rating": 0
+  },
+  {
+    "id": "item35",
+    "restaurantId": "restaurant4",
+    "name": "Tempura Udon",
+    "price": 240,
+    "category": "Udon",
+    "description": "Udon noodles served in a hot broth with tempura vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item36",
+    "restaurantId": "restaurant4",
+    "name": "Dragon Roll",
+    "price": 260,
+    "category": "Sushi",
+    "description": "Eel, avocado, and cucumber wrapped in sushi rice and seaweed",
+    "rating": 0
+  },
+  {
+    "id": "item37",
+    "restaurantId": "restaurant4",
+    "name": "Chawanmushi",
+    "price": 150,
+    "category": "Appetizer",
+    "description": "Japanese steamed egg custard with chicken, shrimp, and vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item38",
+    "restaurantId": "restaurant4",
+    "name": "California Roll",
+    "price": 190,
+    "category": "Sushi",
+    "description": "Crab, avocado, and cucumber rolled in sushi rice and seaweed",
+    "rating": 0
+  },
+  {
+    "id": "item39",
+    "restaurantId": "restaurant4",
+    "name": "Ramen Bowl",
+    "price": 210,
+    "category": "Ramen",
+    "description": "Japanese noodle soup with broth, meat, and vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item40",
+    "restaurantId": "restaurant4",
+    "name": "Sushi Boat Deluxe",
+    "price": 300,
+    "category": "Sushi",
+    "description": "An extravagant boat-shaped platter with a variety of sushi",
+    "rating": 0
+  },
+  {
+    "id": "item41",
+    "restaurantId": "restaurant5",
+    "name": "Classic Cheeseburger",
+    "price": 150,
+    "category": "Burger",
+    "description": "Juicy beef patty topped with melted cheese, lettuce, and tomato",
+    "rating": 0
+  },
+  {
+    "id": "item42",
+    "restaurantId": "restaurant5",
+    "name": "Veggie Burger",
+    "price": 130,
+    "category": "Burger",
+    "description": "Vegetarian patty with lettuce, tomato, and special sauce",
+    "rating": 0
+  },
+  {
+    "id": "item43",
+    "restaurantId": "restaurant5",
+    "name": "Bacon BBQ Burger",
+    "price": 170,
+    "category": "Burger",
+    "description": "Beef burger with crispy bacon, BBQ sauce, and cheddar cheese",
+    "rating": 0
+  },
+  {
+    "id": "item44",
+    "restaurantId": "restaurant5",
+    "name": "Chicken Avocado Burger",
+    "price": 160,
+    "category": "Burger",
+    "description": "Grilled chicken with avocado, lettuce, and ranch dressing",
+    "rating": 0
+  },
+  {
+    "id": "item45",
+    "restaurantId": "restaurant5",
+    "name": "Mushroom Swiss Burger",
+    "price": 180,
+    "category": "Burger",
+    "description": "Beef patty topped with sautéed mushrooms and Swiss cheese",
+    "rating": 0
+  },
+  {
+    "id": "item46",
+    "restaurantId": "restaurant5",
+    "name": "Double Bacon Cheeseburger",
+    "price": 200,
+    "category": "Burger",
+    "description": "Two beef patties with bacon, cheese, lettuce, and special sauce",
+    "rating": 0
+  },
+  {
+    "id": "item47",
+    "restaurantId": "restaurant5",
+    "name": "Crispy Chicken Sandwich",
+    "price": 140,
+    "category": "Sandwich",
+    "description": "Crispy fried chicken fillet with lettuce and mayo",
+    "rating": 0
+  },
+  {
+    "id": "item48",
+    "restaurantId": "restaurant5",
+    "name": "Beyond Meat Burger",
+    "price": 190,
+    "category": "Burger",
+    "description": "Plant-based burger patty with lettuce, tomato, and vegan mayo",
+    "rating": 0
+  },
+  {
+    "id": "item49",
+    "restaurantId": "restaurant5",
+    "name": "Buffalo Chicken Wrap",
+    "price": 160,
+    "category": "Wrap",
+    "description": "Spicy buffalo chicken with lettuce, tomato, and ranch dressing",
+    "rating": 0
+  },
+  {
+    "id": "item50",
+    "restaurantId": "restaurant5",
+    "name": "Chili Cheese Fries",
+    "price": 120,
+    "category": "Side",
+    "description": "Golden fries topped with chili and melted cheese",
+    "rating": 0
+  },
+  {
+    "id": "item51",
+    "restaurantId": "restaurant6",
+    "name": "Chicken Tandoori",
+    "price": 220,
+    "category": "Tandoor",
+    "description": "Marinated chicken grilled to perfection in a clay oven",
+    "rating": 0
+  },
+  {
+    "id": "item52",
+    "restaurantId": "restaurant6",
+    "name": "Paneer Tikka Masala",
+    "price": 200,
+    "category": "Curry",
+    "description": "Paneer cubes in a rich and aromatic masala sauce",
+    "rating": 0
+  },
+  {
+    "id": "item53",
+    "restaurantId": "restaurant6",
+    "name": "Butter Naan",
+    "price": 50,
+    "category": "Bread",
+    "description": "Soft and fluffy Indian bread brushed with butter",
+    "rating": 0
+  },
+  {
+    "id": "item54",
+    "restaurantId": "restaurant6",
+    "name": "Dal Makhani",
+    "price": 180,
+    "category": "Curry",
+    "description": "Slow-cooked black lentils in a creamy tomato-based sauce",
+    "rating": 0
+  },
+  {
+    "id": "item55",
+    "restaurantId": "restaurant6",
+    "name": "Vegetable Biryani",
+    "price": 210,
+    "category": "Biryani",
+    "description": "Fragrant basmati rice cooked with mixed vegetables and aromatic spices",
+    "rating": 0
+  },
+  {
+    "id": "item56",
+    "restaurantId": "restaurant6",
+    "name": "Aloo Gobi",
+    "price": 190,
+    "category": "Curry",
+    "description": "Potatoes and cauliflower cooked with Indian spices",
+    "rating": 0
+  },
+  {
+    "id": "item57",
+    "restaurantId": "restaurant6",
+    "name": "Seekh Kebab",
+    "price": 230,
+    "category": "Kebab",
+    "description": "Minced meat skewers seasoned and grilled to perfection",
+    "rating": 0
+  },
+  {
+    "id": "item58",
+    "restaurantId": "restaurant6",
+    "name": "Murg Malai Tikka",
+    "price": 240,
+    "category": "Tandoor",
+    "description": "Creamy and succulent chicken pieces marinated and grilled",
+    "rating": 0
+  },
+  {
+    "id": "item59",
+    "restaurantId": "restaurant6",
+    "name": "Raita",
+    "price": 60,
+    "category": "Side",
+    "description": "Yogurt mixed with cucumbers, tomatoes, and spices",
+    "rating": 0
+  },
+  {
+    "id": "item60",
+    "restaurantId": "restaurant6",
+    "name": "Peshawari Naan",
+    "price": 70,
+    "category": "Bread",
+    "description": "Naan bread stuffed with nuts and dried fruits",
+    "rating": 0
+  },
+  {
+    "id": "item61",
+    "restaurantId": "restaurant7",
+    "name": "Grilled Salmon",
+    "price": 280,
+    "category": "Seafood",
+    "description": "Fresh salmon fillet grilled to perfection with herbs and lemon",
+    "rating": 0
+  },
+  {
+    "id": "item62",
+    "restaurantId": "restaurant7",
+    "name": "Shrimp Scampi",
+    "price": 250,
+    "category": "Seafood",
+    "description": "Juicy shrimp cooked in a garlic and white wine sauce",
+    "rating": 0
+  },
+  {
+    "id": "item63",
+    "restaurantId": "restaurant7",
+    "name": "Seafood Paella",
+    "price": 300,
+    "category": "Seafood",
+    "description": "Traditional Spanish dish with a variety of seafood and saffron-infused rice",
+    "rating": 0
+  },
+  {
+    "id": "item64",
+    "restaurantId": "restaurant7",
+    "name": "Lobster Bisque",
+    "price": 180,
+    "category": "Soup",
+    "description": "Creamy soup with rich lobster flavor and chunks of lobster meat",
+    "rating": 0
+  },
+  {
+    "id": "item65",
+    "restaurantId": "restaurant7",
+    "name": "Fish Tacos",
+    "price": 200,
+    "category": "Seafood",
+    "description": "Soft tacos filled with grilled fish, coleslaw, and salsa",
+    "rating": 0
+  },
+  {
+    "id": "item66",
+    "restaurantId": "restaurant7",
+    "name": "Crab Cakes",
+    "price": 230,
+    "category": "Seafood",
+    "description": "Pan-seared crab cakes with a zesty remoulade sauce",
+    "rating": 0
+  },
+  {
+    "id": "item67",
+    "restaurantId": "restaurant7",
+    "name": "Clam Chowder",
+    "price": 160,
+    "category": "Soup",
+    "description": "Creamy soup with clams, potatoes, and vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item68",
+    "restaurantId": "restaurant7",
+    "name": "Grilled Swordfish",
+    "price": 270,
+    "category": "Seafood",
+    "description": "Succulent swordfish steak grilled with a herb-infused marinade",
+    "rating": 0
+  },
+  {
+    "id": "item69",
+    "restaurantId": "restaurant7",
+    "name": "Seafood Platter",
+    "price": 320,
+    "category": "Seafood",
+    "description": "Assortment of the freshest seafood, including shrimp, mussels, and calamari",
+    "rating": 0
+  },
+  {
+    "id": "item70",
+    "restaurantId": "restaurant7",
+    "name": "Crispy Calamari",
+    "price": 210,
+    "category": "Appetizer",
+    "description": "Golden-fried calamari rings served with a tangy dipping sauce",
+    "rating": 0
+  },
+  {
+    "id": "item71",
+    "restaurantId": "restaurant8",
+    "name": "Greek Salad",
+    "price": 120,
+    "category": "Salad",
+    "description": "Fresh salad with tomatoes, cucumbers, olives, and feta cheese",
+    "rating": 0
+  },
+  {
+    "id": "item72",
+    "restaurantId": "restaurant8",
+    "name": "Moussaka",
+    "price": 250,
+    "category": "Main Course",
+    "description": "Layered casserole with eggplant, minced meat, and béchamel sauce",
+    "rating": 0
+  },
+  {
+    "id": "item73",
+    "restaurantId": "restaurant8",
+    "name": "Hummus Platter",
+    "price": 100,
+    "category": "Appetizer",
+    "description": "Chickpea dip served with pita bread and assorted veggies",
+    "rating": 0
+  },
+  {
+    "id": "item74",
+    "restaurantId": "restaurant8",
+    "name": "Falafel Wrap",
+    "price": 180,
+    "category": "Wrap",
+    "description": "Deep-fried chickpea patties with veggies in a wrap",
+    "rating": 0
+  },
+  {
+    "id": "item75",
+    "restaurantId": "restaurant8",
+    "name": "Shawarma Plate",
+    "price": 220,
+    "category": "Main Course",
+    "description": "Grilled meat slices served with rice, hummus, and salad",
+    "rating": 0
+  },
+  {
+    "id": "item76",
+    "restaurantId": "restaurant8",
+    "name": "Tabbouleh",
+    "price": 90,
+    "category": "Salad",
+    "description": "Refreshing salad with finely chopped parsley, tomatoes, and bulgur",
+    "rating": 0
+  },
+  {
+    "id": "item77",
+    "restaurantId": "restaurant8",
+    "name": "Spanakopita",
+    "price": 200,
+    "category": "Appetizer",
+    "description": "Spinach and feta cheese wrapped in phyllo pastry",
+    "rating": 0
+  },
+  {
+    "id": "item78",
+    "restaurantId": "restaurant8",
+    "name": "Lamb Kebabs",
+    "price": 260,
+    "category": "Kebab",
+    "description": "Grilled skewers of marinated lamb served with tzatziki sauce",
+    "rating": 0
+  },
+  {
+    "id": "item79",
+    "restaurantId": "restaurant8",
+    "name": "Mediterranean Pizza",
+    "price": 280,
+    "category": "Pizza",
+    "description": "Pizza topped with olives, artichokes, feta, and sun-dried tomatoes",
+    "rating": 0
+  },
+  {
+    "id": "item80",
+    "restaurantId": "restaurant8",
+    "name": "Dolma",
+    "price": 150,
+    "category": "Appetizer",
+    "description": "Grape leaves stuffed with rice, pine nuts, and herbs",
+    "rating": 0
+  },
+  {
+    "id": "item81",
+    "restaurantId": "restaurant9",
+    "name": "Quinoa Salad",
+    "price": 130,
+    "category": "Salad",
+    "description": "Nutrient-packed salad with quinoa, mixed greens, and avocado",
+    "rating": 0
+  },
+  {
+    "id": "item82",
+    "restaurantId": "restaurant9",
+    "name": "Vegan Buddha Bowl",
+    "price": 180,
+    "category": "Bowl",
+    "description": "A nourishing bowl with a variety of vegetables, grains, and tofu",
+    "rating": 0
+  },
+  {
+    "id": "item83",
+    "restaurantId": "restaurant9",
+    "name": "Chickpea Stir-Fry",
+    "price": 150,
+    "category": "Stir-Fry",
+    "description": "Stir-fried chickpeas with colorful vegetables in a savory sauce",
+    "rating": 0
+  },
+  {
+    "id": "item84",
+    "restaurantId": "restaurant9",
+    "name": "Vegan Margherita Pizza",
+    "price": 200,
+    "category": "Pizza",
+    "description": "Classic tomato, basil, and vegan cheese pizza",
+    "rating": 0
+  },
+  {
+    "id": "item85",
+    "restaurantId": "restaurant9",
+    "name": "Sweet Potato and Black Bean Burrito",
+    "price": 170,
+    "category": "Burrito",
+    "description": "Burrito filled with roasted sweet potatoes, black beans, and salsa",
+    "rating": 0
+  },
+  {
+    "id": "item86",
+    "restaurantId": "restaurant9",
+    "name": "Vegan Pad Thai",
+    "price": 190,
+    "category": "Noodles",
+    "description": "Rice noodles stir-fried with tofu, vegetables, and a tangy sauce",
+    "rating": 0
+  },
+  {
+    "id": "item87",
+    "restaurantId": "restaurant9",
+    "name": "Vegan Chocolate Cake",
+    "price": 120,
+    "category": "Dessert",
+    "description": "Decadent chocolate cake made without dairy or eggs",
+    "rating": 0
+  },
+  {
+    "id": "item88",
+    "restaurantId": "restaurant9",
+    "name": "Vegan Sushi Rolls",
+    "price": 220,
+    "category": "Sushi",
+    "description": "Sushi rolls filled with avocado, cucumber, and other plant-based ingredients",
+    "rating": 0
+  },
+  {
+    "id": "item89",
+    "restaurantId": "restaurant9",
+    "name": "Vegan Lentil Soup",
+    "price": 160,
+    "category": "Soup",
+    "description": "Hearty lentil soup with vegetables and aromatic spices",
+    "rating": 0
+  },
+  {
+    "id": "item90",
+    "restaurantId": "restaurant9",
+    "name": "Vegan Tacos",
+    "price": 140,
+    "category": "Tacos",
+    "description": "Tacos filled with seasoned plant-based protein and fresh toppings",
+    "rating": 0
+  },
+  {
+    "id": "item91",
+    "restaurantId": "restaurant10",
+    "name": "Masala Dosa",
+    "price": 80,
+    "category": "Dosa",
+    "description": "Crispy rice crepe filled with spiced potato filling",
+    "rating": 0
+  },
+  {
+    "id": "item92",
+    "restaurantId": "restaurant10",
+    "name": "Mysore Masala Dosa",
+    "price": 90,
+    "category": "Dosa",
+    "description": "Masala dosa topped with a flavorful and spicy chutney",
+    "rating": 0
+  },
+  {
+    "id": "item93",
+    "restaurantId": "restaurant10",
+    "name": "Onion Rava Dosa",
+    "price": 85,
+    "category": "Dosa",
+    "description": "Semolina dosa with onions, served crisp and golden",
+    "rating": 0
+  },
+  {
+    "id": "item94",
+    "restaurantId": "restaurant10",
+    "name": "Paper Dosa",
+    "price": 100,
+    "category": "Dosa",
+    "description": "Thin and crispy rice crepe, a South Indian delicacy",
+    "rating": 0
+  },
+  {
+    "id": "item95",
+    "restaurantId": "restaurant10",
+    "name": "Paneer Dosa",
+    "price": 110,
+    "category": "Dosa",
+    "description": "Dosa filled with spiced paneer (cottage cheese) filling",
+    "rating": 0
+  },
+  {
+    "id": "item96",
+    "restaurantId": "restaurant10",
+    "name": "Set Dosa",
+    "price": 75,
+    "category": "Dosa",
+    "description": "Soft and spongy dosa served in a set of 3 or 4",
+    "rating": 0
+  },
+  {
+    "id": "item97",
+    "restaurantId": "restaurant10",
+    "name": "Ghee Roast Dosa",
+    "price": 95,
+    "category": "Dosa",
+    "description": "Dosa roasted to perfection with clarified butter (ghee)",
+    "rating": 0
+  },
+  {
+    "id": "item98",
+    "restaurantId": "restaurant10",
+    "name": "Tomato Uttapam",
+    "price": 85,
+    "category": "Uttapam",
+    "description": "Thick rice pancake topped with tomatoes and spices",
+    "rating": 0
+  },
+  {
+    "id": "item99",
+    "restaurantId": "restaurant10",
+    "name": "Coconut Chutney",
+    "price": 40,
+    "category": "Side",
+    "description": "Traditional South Indian chutney made with coconut and spices",
+    "rating": 0
+  },
+  {
+    "id": "item100",
+    "restaurantId": "restaurant10",
+    "name": "Pongal",
+    "price": 70,
+    "category": "Main Course",
+    "description": "Savory rice and lentil dish, a South Indian comfort food",
+    "rating": 0
+  },
+  {
+    "id": "item101",
+    "restaurantId": "restaurant16",
+    "name": "Tandoori Chicken",
+    "price": 180,
+    "category": "Appetizer",
+    "description": "Spiced and marinated chicken cooked in a tandoor",
+    "rating": 0
+  },
+  {
+    "id": "item102",
+    "restaurantId": "restaurant16",
+    "name": "Butter Chicken",
+    "price": 220,
+    "category": "Main Course",
+    "description": "Creamy and flavorful chicken curry with buttery tomato sauce",
+    "rating": 0
+  },
+  {
+    "id": "item103",
+    "restaurantId": "restaurant16",
+    "name": "Paneer Tikka",
+    "price": 200,
+    "category": "Appetizer",
+    "description": "Grilled marinated paneer cubes with aromatic spices",
+    "rating": 0
+  },
+  {
+    "id": "item104",
+    "restaurantId": "restaurant16",
+    "name": "Naan Bread",
+    "price": 50,
+    "category": "Bread",
+    "description": "Soft and fluffy Indian bread baked in a tandoor",
+    "rating": 0
+  },
+  {
+    "id": "item105",
+    "restaurantId": "restaurant16",
+    "name": "Chicken Biryani",
+    "price": 250,
+    "category": "Biryani",
+    "description": "Flavorful rice dish with spiced chicken and aromatic herbs",
+    "rating": 0
+  },
+  {
+    "id": "item106",
+    "restaurantId": "restaurant16",
+    "name": "Dal Makhani",
+    "price": 150,
+    "category": "Main Course",
+    "description": "Slow-cooked black lentils in a creamy and rich tomato-based sauce",
+    "rating": 0
+  },
+  {
+    "id": "item107",
+    "restaurantId": "restaurant16",
+    "name": "Vegetable Biryani",
+    "price": 220,
+    "category": "Biryani",
+    "description": "Fragrant rice dish with mixed vegetables and aromatic spices",
+    "rating": 0
+  },
+  {
+    "id": "item108",
+    "restaurantId": "restaurant16",
+    "name": "Chicken Kebabs",
+    "price": 200,
+    "category": "Kebab",
+    "description": "Grilled skewers of marinated chicken served with mint chutney",
+    "rating": 0
+  },
+  {
+    "id": "item109",
+    "restaurantId": "restaurant16",
+    "name": "Palak Paneer",
+    "price": 180,
+    "category": "Main Course",
+    "description": "Paneer cubes in a creamy spinach curry",
+    "rating": 0
+  },
+  {
+    "id": "item110",
+    "restaurantId": "restaurant16",
+    "name": "Garlic Naan",
+    "price": 60,
+    "category": "Bread",
+    "description": "Naan bread flavored with garlic and butter",
+    "rating": 0
+  },
+  {
+    "id": "item111",
+    "restaurantId": "restaurant17",
+    "name": "Margherita Pizza",
+    "price": 180,
+    "category": "Pizza",
+    "description": "Classic tomato, basil, and mozzarella cheese pizza",
+    "rating": 0
+  },
+  {
+    "id": "item112",
+    "restaurantId": "restaurant17",
+    "name": "Vegetarian Supreme Pizza",
+    "price": 220,
+    "category": "Pizza",
+    "description": "Loaded with a variety of fresh vegetables and cheese",
+    "rating": 0
+  },
+  {
+    "id": "item113",
+    "restaurantId": "restaurant17",
+    "name": "Pepperoni Pizza",
+    "price": 200,
+    "category": "Pizza",
+    "description": "Classic pizza topped with pepperoni slices",
+    "rating": 0
+  },
+  {
+    "id": "item114",
+    "restaurantId": "restaurant17",
+    "name": "BBQ Chicken Pizza",
+    "price": 250,
+    "category": "Pizza",
+    "description": "Delicious pizza topped with BBQ chicken and onions",
+    "rating": 0
+  },
+  {
+    "id": "item115",
+    "restaurantId": "restaurant17",
+    "name": "Hawaiian Pizza",
+    "price": 210,
+    "category": "Pizza",
+    "description": "Pizza with ham, pineapple, and cheese",
+    "rating": 0
+  },
+  {
+    "id": "item116",
+    "restaurantId": "restaurant17",
+    "name": "Mushroom and Olive Pizza",
+    "price": 190,
+    "category": "Pizza",
+    "description": "Pizza topped with mushrooms, olives, and cheese",
+    "rating": 0
+  },
+  {
+    "id": "item117",
+    "restaurantId": "restaurant17",
+    "name": "Spinach and Feta Pizza",
+    "price": 230,
+    "category": "Pizza",
+    "description": "Pizza topped with spinach, feta cheese, and garlic",
+    "rating": 0
+  },
+  {
+    "id": "item118",
+    "restaurantId": "restaurant17",
+    "name": "Buffalo Chicken Pizza",
+    "price": 240,
+    "category": "Pizza",
+    "description": "Spicy pizza with buffalo chicken, ranch dressing, and celery",
+    "rating": 0
+  },
+  {
+    "id": "item119",
+    "restaurantId": "restaurant17",
+    "name": "Four Cheese Pizza",
+    "price": 200,
+    "category": "Pizza",
+    "description": "Pizza with a blend of four cheeses - mozzarella, cheddar, parmesan, and gouda",
+    "rating": 0
+  },
+  {
+    "id": "item120",
+    "restaurantId": "restaurant17",
+    "name": "Pesto and Tomato Pizza",
+    "price": 210,
+    "category": "Pizza",
+    "description": "Pizza with pesto sauce, cherry tomatoes, and mozzarella",
+    "rating": 0
+  },
+  {
+    "id": "item121",
+    "restaurantId": "restaurant18",
+    "name": "Vegetable Hakka Noodles",
+    "price": 120,
+    "category": "Noodles",
+    "description": "Stir-fried noodles with mixed vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item122",
+    "restaurantId": "restaurant18",
+    "name": "Chicken Schezwan Noodles",
+    "price": 150,
+    "category": "Noodles",
+    "description": "Spicy noodles with chicken, vegetables, and Schezwan sauce",
+    "rating": 0
+  },
+  {
+    "id": "item123",
+    "restaurantId": "restaurant18",
+    "name": "Egg Fried Rice",
+    "price": 100,
+    "category": "Rice",
+    "description": "Fried rice with scrambled eggs and vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item124",
+    "restaurantId": "restaurant18",
+    "name": "Shrimp Pad Thai",
+    "price": 180,
+    "category": "Noodles",
+    "description": "Traditional Thai noodles with shrimp, peanuts, and lime",
+    "rating": 0
+  },
+  {
+    "id": "item125",
+    "restaurantId": "restaurant18",
+    "name": "Vegetarian Chow Mein",
+    "price": 130,
+    "category": "Noodles",
+    "description": "Stir-fried noodles with assorted vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item126",
+    "restaurantId": "restaurant18",
+    "name": "Singapore Style Vermicelli",
+    "price": 140,
+    "category": "Noodles",
+    "description": "Spicy and flavorful vermicelli with shrimp and vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item127",
+    "restaurantId": "restaurant18",
+    "name": "Mushroom Fried Rice",
+    "price": 110,
+    "category": "Rice",
+    "description": "Fried rice with mushrooms and aromatic spices",
+    "rating": 0
+  },
+  {
+    "id": "item128",
+    "restaurantId": "restaurant18",
+    "name": "Beef Teriyaki Udon",
+    "price": 160,
+    "category": "Noodles",
+    "description": "Udon noodles with tender beef and teriyaki sauce",
+    "rating": 0
+  },
+  {
+    "id": "item129",
+    "restaurantId": "restaurant18",
+    "name": "Vegetable Spring Rolls",
+    "price": 90,
+    "category": "Appetizer",
+    "description": "Crispy spring rolls filled with assorted vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item130",
+    "restaurantId": "restaurant18",
+    "name": "Chicken Chow Fun",
+    "price": 170,
+    "category": "Noodles",
+    "description": "Stir-fried wide rice noodles with chicken and vegetables",
+    "rating": 0
+  },
+  {
+    "id": "item131",
+    "restaurantId": "restaurant19",
+    "name": "Grilled Chicken Skewers",
+    "price": 180,
+    "category": "Appetizer",
+    "description": "Tender chicken skewers grilled to perfection",
+    "rating": 0
+  },
+  {
+    "id": "item132",
+    "restaurantId": "restaurant19",
+    "name": "BBQ Pork Ribs",
+    "price": 220,
+    "category": "Main Course",
+    "description": "Succulent pork ribs glazed with barbecue sauce",
+    "rating": 0
+  },
+  {
+    "id": "item133",
+    "restaurantId": "restaurant19",
+    "name": "Vegetable Kebabs",
+    "price": 200,
+    "category": "Appetizer",
+    "description": "Assorted grilled vegetable skewers",
+    "rating": 0
+  },
+  {
+    "id": "item134",
+    "restaurantId": "restaurant19",
+    "name": "Beef Brisket",
+    "price": 250,
+    "category": "Main Course",
+    "description": "Slow-cooked and smoked beef brisket",
+    "rating": 0
+  },
+  {
+    "id": "item135",
+    "restaurantId": "restaurant19",
+    "name": "Grilled Shrimp",
+    "price": 210,
+    "category": "Main Course",
+    "description": "Juicy shrimp seasoned and grilled to perfection",
+    "rating": 0
+  },
+  {
+    "id": "item136",
+    "restaurantId": "restaurant19",
+    "name": "BBQ Chicken Wings",
+    "price": 190,
+    "category": "Appetizer",
+    "description": "Crispy chicken wings coated in barbecue sauce",
+    "rating": 0
+  },
+  {
+    "id": "item137",
+    "restaurantId": "restaurant19",
+    "name": "Grilled Vegetable Platter",
+    "price": 230,
+    "category": "Main Course",
+    "description": "Assorted grilled vegetables served as a platter",
+    "rating": 0
+  },
+  {
+    "id": "item138",
+    "restaurantId": "restaurant19",
+    "name": "Smoked Pulled Pork Sandwich",
+    "price": 200,
+    "category": "Sandwich",
+    "description": "Tender pulled pork smoked to perfection in a sandwich",
+    "rating": 0
+  },
+  {
+    "id": "item139",
+    "restaurantId": "restaurant19",
+    "name": "BBQ Beef Ribs",
+    "price": 240,
+    "category": "Main Course",
+    "description": "Beef ribs slow-cooked and glazed with barbecue sauce",
+    "rating": 0
+  },
+  {
+    "id": "item140",
+    "restaurantId": "restaurant19",
+    "name": "Grilled Corn on the Cob",
+    "price": 160,
+    "category": "Side",
+    "description": "Corn on the cob grilled and seasoned with spices",
+    "rating": 0
+  },
+  {
+    "id": "item141",
+    "restaurantId": "restaurant11",
+    "name": "Spicy Madurai Thali",
+    "price": 180,
+    "category": "Thali",
+    "description": "A variety of spicy Madurai specialties in one thali",
+    "rating": 0
+  },
+  {
+    "id": "item142",
+    "restaurantId": "restaurant11",
+    "name": "Pepper Chicken",
+    "price": 200,
+    "category": "Chicken",
+    "description": "Juicy chicken cooked with Madurai's signature pepper",
+    "rating": 0
+  },
+  {
+    "id": "item143",
+    "restaurantId": "restaurant11",
+    "name": "Gandhi Road Pongal",
+    "price": 150,
+    "category": "Breakfast",
+    "description": "Savory rice and lentil dish from Gandhi Road",
+    "rating": 0
+  },
+  {
+    "id": "item144",
+    "restaurantId": "restaurant11",
+    "name": "Periyar Masala Vada",
+    "price": 80,
+    "category": "Snack",
+    "description": "Deep-fried lentil fritters with Periyar spices",
+    "rating": 0
+  },
+  {
+    "id": "item145",
+    "restaurantId": "restaurant11",
+    "name": "Madurai Sambar Rice",
+    "price": 160,
+    "category": "Rice",
+    "description": "Rice dish with Madurai-style tangy lentil soup",
+    "rating": 0
+  },
+  {
+    "id": "item146",
+    "restaurantId": "restaurant11",
+    "name": "South Indian Filter Coffee",
+    "price": 90,
+    "category": "Beverage",
+    "description": "Authentic South Indian filter coffee from Madurai",
+    "rating": 0
+  },
+  {
+    "id": "item147",
+    "restaurantId": "restaurant11",
+    "name": "Madurai Spice Hub Special Parotta",
+    "price": 120,
+    "category": "Parotta",
+    "description": "Flaky layered bread with a special Madurai twist",
+    "rating": 0
+  },
+  {
+    "id": "item148",
+    "restaurantId": "restaurant11",
+    "name": "Periyar Mango Lassi",
+    "price": 100,
+    "category": "Beverage",
+    "description": "Refreshing mango lassi with flavors from Periyar",
+    "rating": 0
+  },
+  {
+    "id": "item149",
+    "restaurantId": "restaurant11",
+    "name": "Madurai Spice Hub Special Rasam",
+    "price": 70,
+    "category": "Soup",
+    "description": "Spicy and tangy soup with Madurai flavors",
+    "rating": 0
+  },
+  {
+    "id": "item150",
+    "restaurantId": "restaurant11",
+    "name": "Gandhi Road Coconut Chutney",
+    "price": 60,
+    "category": "Chutney",
+    "description": "Coconut chutney with a twist from Gandhi Road",
+    "rating": 0
+  },
+  {
+    "id": "item151",
+    "restaurantId": "restaurant12",
+    "name": "Madurai Special Masala Dosa",
+    "price": 120,
+    "category": "Dosa",
+    "description": "Masala dosa with a special twist from Madurai",
+    "rating": 0
+  },
+  {
+    "id": "item152",
+    "restaurantId": "restaurant12",
+    "name": "Ellis Nagar Onion Rava Dosa",
+    "price": 100,
+    "category": "Dosa",
+    "description": "Semolina dosa with onions from Ellis Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item153",
+    "restaurantId": "restaurant12",
+    "name": "Anna Salai Plain Dosa",
+    "price": 80,
+    "category": "Dosa",
+    "description": "Traditional plain dosa from Anna Salai",
+    "rating": 0
+  },
+  {
+    "id": "item154",
+    "restaurantId": "restaurant12",
+    "name": "Madurai Dosa Delights Special Uttapam",
+    "price": 150,
+    "category": "Uttapam",
+    "description": "Fluffy and savory uttapam with a special touch",
+    "rating": 0
+  },
+  {
+    "id": "item155",
+    "restaurantId": "restaurant12",
+    "name": "Ellis Nagar Pesarattu",
+    "price": 130,
+    "category": "Pesarattu",
+    "description": "Green gram crepe from Ellis Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item156",
+    "restaurantId": "restaurant12",
+    "name": "Madurai Podi Dosa",
+    "price": 110,
+    "category": "Dosa",
+    "description": "Dosa coated with spicy podi from Madurai",
+    "rating": 0
+  },
+  {
+    "id": "item157",
+    "restaurantId": "restaurant12",
+    "name": "Anna Salai Set Dosa",
+    "price": 90,
+    "category": "Dosa",
+    "description": "Soft and spongy set dosa from Anna Salai",
+    "rating": 0
+  },
+  {
+    "id": "item158",
+    "restaurantId": "restaurant12",
+    "name": "Madurai Dosa Delights Special Chutneys",
+    "price": 70,
+    "category": "Chutney",
+    "description": "Assortment of chutneys from Madurai Dosa Delights",
+    "rating": 0
+  },
+  {
+    "id": "item159",
+    "restaurantId": "restaurant12",
+    "name": "Ellis Nagar Ghee Roast Dosa",
+    "price": 160,
+    "category": "Dosa",
+    "description": "Crispy ghee roast dosa from Ellis Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item160",
+    "restaurantId": "restaurant12",
+    "name": "Madurai Dosa Delights Special Filter Coffee",
+    "price": 100,
+    "category": "Beverage",
+    "description": "Filter coffee with a special touch from Madurai Dosa Delights",
+    "rating": 0
+  },
+  {
+    "id": "item161",
+    "restaurantId": "restaurant13",
+    "name": "Madurai Dum Biryani",
+    "price": 250,
+    "category": "Biryani",
+    "description": "Slow-cooked biryani with aromatic spices",
+    "rating": 0
+  },
+  {
+    "id": "item162",
+    "restaurantId": "restaurant13",
+    "name": "Arignar Anna Nagar Chicken Biryani",
+    "price": 220,
+    "category": "Biryani",
+    "description": "Flavorful chicken biryani from Arignar Anna Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item163",
+    "restaurantId": "restaurant13",
+    "name": "Kamarajar Salai Veg Biryani",
+    "price": 200,
+    "category": "Biryani",
+    "description": "Vegetarian biryani with a twist from Kamarajar Salai",
+    "rating": 0
+  },
+  {
+    "id": "item164",
+    "restaurantId": "restaurant13",
+    "name": "Madurai Biryani Paradise Special Raita",
+    "price": 80,
+    "category": "Raita",
+    "description": "Cooling raita with a special touch from Madurai Biryani Paradise",
+    "rating": 0
+  },
+  {
+    "id": "item165",
+    "restaurantId": "restaurant13",
+    "name": "Arignar Anna Nagar Mutton Biryani",
+    "price": 280,
+    "category": "Biryani",
+    "description": "Mutton biryani with rich flavors from Arignar Anna Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item166",
+    "restaurantId": "restaurant13",
+    "name": "Kamarajar Salai Chicken 65 Biryani",
+    "price": 230,
+    "category": "Biryani",
+    "description": "Biryani with spicy Chicken 65 from Kamarajar Salai",
+    "rating": 0
+  },
+  {
+    "id": "item167",
+    "restaurantId": "restaurant13",
+    "name": "Madurai Biryani Paradise Special Brinjal Curry",
+    "price": 100,
+    "category": "Curry",
+    "description": "Brinjal curry with a special twist from Madurai Biryani Paradise",
+    "rating": 0
+  },
+  {
+    "id": "item168",
+    "restaurantId": "restaurant13",
+    "name": "Arignar Anna Nagar Egg Biryani",
+    "price": 210,
+    "category": "Biryani",
+    "description": "Egg biryani with authentic flavors from Arignar Anna Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item169",
+    "restaurantId": "restaurant13",
+    "name": "Kamarajar Salai Paneer Biryani",
+    "price": 190,
+    "category": "Biryani",
+    "description": "Paneer biryani with a twist from Kamarajar Salai",
+    "rating": 0
+  },
+  {
+    "id": "item170",
+    "restaurantId": "restaurant13",
+    "name": "Madurai Biryani Paradise Special Mirchi Ka Salan",
+    "price": 90,
+    "category": "Side Dish",
+    "description": "Spicy Mirchi Ka Salan from Madurai Biryani Paradise",
+    "rating": 0
+  },
+  {
+    "id": "item171",
+    "restaurantId": "restaurant14",
+    "name": "Besant Nagar Grilled Fish",
+    "price": 180,
+    "category": "Seafood",
+    "description": "Freshly grilled fish with Besant Nagar flavors",
+    "rating": 0
+  },
+  {
+    "id": "item172",
+    "restaurantId": "restaurant14",
+    "name": "Adyar Shrimp Curry",
+    "price": 200,
+    "category": "Seafood",
+    "description": "Spicy shrimp curry inspired by Adyar cuisine",
+    "rating": 0
+  },
+  {
+    "id": "item173",
+    "restaurantId": "restaurant14",
+    "name": "Kalavasal Crab Masala",
+    "price": 220,
+    "category": "Seafood",
+    "description": "Crab masala with flavors from Kalavasal",
+    "rating": 0
+  },
+  {
+    "id": "item174",
+    "restaurantId": "restaurant14",
+    "name": "SS Colony Fish Curry",
+    "price": 190,
+    "category": "Seafood",
+    "description": "Fish curry with authentic SS Colony spices",
+    "rating": 0
+  },
+  {
+    "id": "item175",
+    "restaurantId": "restaurant14",
+    "name": "Besant Nagar Prawn Masala",
+    "price": 210,
+    "category": "Seafood",
+    "description": "Prawn masala with flavors from Besant Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item176",
+    "restaurantId": "restaurant14",
+    "name": "Adyar Lobster Thermidor",
+    "price": 280,
+    "category": "Seafood",
+    "description": "Lobster Thermidor with a touch of Adyar",
+    "rating": 0
+  },
+  {
+    "id": "item177",
+    "restaurantId": "restaurant14",
+    "name": "Kalavasal Squid Fry",
+    "price": 150,
+    "category": "Seafood",
+    "description": "Crispy and spicy squid fry from Kalavasal",
+    "rating": 0
+  },
+  {
+    "id": "item178",
+    "restaurantId": "restaurant14",
+    "name": "SS Colony Fish Tandoori",
+    "price": 230,
+    "category": "Seafood",
+    "description": "Tandoori fish with SS Colony spices",
+    "rating": 0
+  },
+  {
+    "id": "item179",
+    "restaurantId": "restaurant14",
+    "name": "Besant Nagar Clam Curry",
+    "price": 200,
+    "category": "Seafood",
+    "description": "Clam curry with flavors from Besant Nagar",
+    "rating": 0
+  },
+  {
+    "id": "item180",
+    "restaurantId": "restaurant14",
+    "name": "Adyar Fish Biryani",
+    "price": 240,
+    "category": "Biryani",
+    "description": "Fish biryani with Adyar spices",
+    "rating": 0
+  },
+  {
+    "id": "item181",
+    "restaurantId": "restaurant15",
+    "name": "Simakkal Special Jalebi",
+    "price": 80,
+    "category": "Sweets",
+    "description": "Crunchy and sweet jalebis from Simakkal",
+    "rating": 0
+  },
+  {
+    "id": "item182",
+    "restaurantId": "restaurant15",
+    "name": "South Masi Street Mysore Pak",
+    "price": 100,
+    "category": "Sweets",
+    "description": "Rich and delicious Mysore Pak from South Masi Street",
+    "rating": 0
+  },
+  {
+    "id": "item183",
+    "restaurantId": "restaurant15",
+    "name": "Simakkal Special Palkova",
+    "price": 120,
+    "category": "Sweets",
+    "description": "Creamy and sweet Palkova from Simakkal",
+    "rating": 0
+  },
+  {
+    "id": "item184",
+    "restaurantId": "restaurant15",
+    "name": "South Masi Street Gulab Jamun",
+    "price": 90,
+    "category": "Sweets",
+    "description": "Soft and syrupy Gulab Jamun from South Masi Street",
+    "rating": 0
+  },
+  {
+    "id": "item185",
+    "restaurantId": "restaurant15",
+    "name": "Simakkal Special Badusha",
+    "price": 110,
+    "category": "Sweets",
+    "description": "Flaky and sweet Badusha from Simakkal",
+    "rating": 0
+  },
+  {
+    "id": "item186",
+    "restaurantId": "restaurant15",
+    "name": "South Masi Street Ladoo",
+    "price": 70,
+    "category": "Sweets",
+    "description": "Traditional Ladoo from South Masi Street",
+    "rating": 0
+  },
+  {
+    "id": "item187",
+    "restaurantId": "restaurant15",
+    "name": "Simakkal Special Halwa",
+    "price": 130,
+    "category": "Sweets",
+    "description": "Delicious Halwa from Simakkal",
+    "rating": 0
+  },
+  {
+    "id": "item188",
+    "restaurantId": "restaurant15",
+    "name": "South Masi Street Kaju Katli",
+    "price": 150,
+    "category": "Sweets",
+    "description": "Rich and nutty Kaju Katli from South Masi Street",
+    "rating": 0
+  },
+  {
+    "id": "item189",
+    "restaurantId": "restaurant15",
+    "name": "Simakkal Special Peda",
+    "price": 100,
+    "category": "Sweets",
+    "description": "Melt-in-mouth Peda from Simakkal",
+    "rating": 0
+  },
+  {
+    "id": "item190",
+    "restaurantId": "restaurant15",
+    "name": "South Masi Street Coconut Barfi",
+    "price": 120,
+    "category": "Sweets",
+    "description": "Coconut-infused Barfi from South Masi Street",
+    "rating": 0
+  }
+]

@@ -1,0 +1,16 @@
+<div class="cart">
+    <mat-tab-group>
+      <mat-tab label="CART">
+        <ng-template matTabContent>
+          <app-cart [customerId]="customerId"></app-cart>
+        </ng-template>
+      </mat-tab>
+  
+      <mat-tab label="DELIVERIES"> 
+            <ng-template matTabContent>
+                <app-delivery [customerId]="customerId"></app-delivery>
+            </ng-template>
+        </mat-tab>
+    </mat-tab-group>
+  </div>
+  

@@ -1,0 +1,93 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+.item-card{
+    --_spacer: var(--size-3);
+
+}
+.media-element {
+    display: grid;
+    grid-template-rows: min-content;
+    gap: var(--_spacer);
+    padding: var(--_spacer);
+    border-radius: var(--radius-2);
+    box-shadow: var(--shadow-2);
+    transition: transform 0.3s;
+    background-color: orange;
+
+  }
+  .media-element:hover{
+      
+      cursor:pointer ;
+      transform: scale(1.05); 
+  }
+  
+  .media-element > img {
+    inline-size: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+  }
+  
+
+
+
+
+
+/* responsive design */
+@media only screen and (max-width: 460px) {
+  .item-card {
+      --_spacer: var(--size-1); 
+  }
+
+  .media-element {
+      gap: var(--_spacer);
+      padding: var(--_spacer);
+      box-shadow: none; /* Remove box shadow on very small screens */
+  }
+
+  .media-element > img {
+      aspect-ratio: 1 / 1; /* Adjust aspect ratio for square images on very small screens */
+  }
+  .title{
+    font-size: 12px;
+  }
+}
+
+  @media only screen and (min-width: 768px) {
+    .item-card {
+        /* Adjust styles for larger screens */
+        --_spacer: var(--size-2); 
+    }
+
+    .media-element {
+        /* Adjust styles for larger screens */
+        gap: var(--_spacer);
+        padding: var(--_spacer);
+        box-shadow: none;
+    }
+    .media-element > img {
+      aspect-ratio: 1 / 1; /* Adjust aspect ratio for square images on smaller screens */
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+    .item-card {
+        /* Further adjustments for even larger screens */
+        --_spacer: var(--size-3);
+    }
+
+    .media-element {
+        /* Further adjustments for even larger screens */
+        grid-template-rows: min-content;
+        gap: var(--_spacer);
+        padding: var(--_spacer);
+        border-radius: var(--radius-2);
+        box-shadow: var(--shadow-2);        
+    }
+
+    .media-element > img {
+      inline-size: 100%;
+      aspect-ratio: 16 / 9;
+      object-fit: cover;
+    }
+    
+}

@@ -1,0 +1,300 @@
+<div class="restaurant-details">
+    <!-- ######################################################################################################### -->
+    <!-- ######################################################################################################### -->
+    <!-- ######################################################################################################### -->
+
+    
+    <div class="main-panel" *ngIf="restaurant">
+    <!-- ######################################################################################################### -->
+    <!-- ######################################################################################################### -->
+
+        <mat-card class="restaurant-card">
+            <mat-card-header>
+                <mat-card-title-group>
+                    <mat-card-title>
+                        <h1>
+                            Restaurant Control Panel
+                        </h1>
+                    </mat-card-title>
+    
+                </mat-card-title-group>
+    
+            </mat-card-header>
+            <mat-card-content>
+    <!-- ######################################################################################################### -->
+                <div class="restaurant-info">
+    
+                    <h2>
+                        Details
+                    </h2>
+                    <div class="details">
+                        <form [formGroup]="detailsForm" class="details-form">
+                            <div class="field-row1">
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        resturant name
+                                    </mat-label>
+                                    <input type="text" matInput formControlName="restaurantName"
+                                    [readonly]="!isEditingForm">
+                                    <mat-error *ngIf="restaurantName.errors?.['required']">   
+                                        restaurant name is required
+                                    </mat-error>
+                                    <mat-error *ngIf="restaurantName.errors?.['minlength']">   
+                                        should  be more that 2 characters long
+                                    </mat-error>
+
+    
+                                </mat-form-field>
+                    
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        resturant contact
+                                    </mat-label>
+                                    <input type="text" matInput  [readonly]="!isEditingForm" formControlName="restaurantContact">
+                                    <mat-error *ngIf="restaurantContact.errors?.['required']">   
+                                        restaurant contact is required  
+                                    </mat-error>
+                                    <mat-error *ngIf="restaurantContact.errors?.['pattern']">   
+                                        contact must be a 10 digit number
+                                    </mat-error>
+
+                                </mat-form-field>                            
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        cuisine type
+                                    </mat-label>
+                                    <input type="text" matInput  [readonly]="!isEditingForm" formControlName="cuisineType">
+                                    <mat-error *ngIf="cuisineType.errors?.['required']">   
+                                        cuisine type is required
+                                    </mat-error>
+                                    <mat-error *ngIf="restaurantContact.errors?.['minlength']">   
+                                        cuisine type must be at least 3 characters long
+                                    </mat-error>
+
+                                </mat-form-field>
+                            </div>
+                            <div class="field-row1">                                
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        description
+                                    </mat-label>
+                                    <textarea matInput  [readonly]="!isEditingForm"  formControlName="description" ></textarea>
+                                    <mat-error *ngIf="description.errors?.['pattern']">   
+                                        description must be less than 200 characters
+                                    </mat-error>
+
+                                </mat-form-field>
+                            </div>
+                        </form>
+                    </div>    
+    <!-- ######################################################################################################### -->
+                    <div class="owner">
+                        <h2>
+                            Owner
+                        </h2>
+                        <form [formGroup]="ownerForm" class="owner-form">
+                            <div class="field-row1">
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        email
+                                    </mat-label>
+                                    <input type="text" matInput [readonly]="!isEditingForm" formControlName="ownerEmail">
+                                    <mat-error *ngIf="ownerEmail.errors?.['required']">   
+                                        owner email is required
+                                    </mat-error>
+                                    <mat-error *ngIf="ownerEmail.errors?.['pattern']">   
+                                        email must be in valid  format
+                                    </mat-error>
+
+                                </mat-form-field>
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        full name
+                                    </mat-label>
+                                    <input type="text" matInput  [readonly]="!isEditingForm" formControlName="ownerName">
+                                    <mat-error *ngIf="ownerName.errors?.['required']">   
+                                        full name is required
+                                    </mat-error>
+                                    <mat-error *ngIf="ownerName.errors?.['minlength']">   
+                                        name must be at least 3 characters long
+                                    </mat-error>
+
+
+                                </mat-form-field>
+            
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        contact
+                                    </mat-label>
+                                    <input type="text" matInput  [readonly]="!isEditingForm" formControlName="ownerContact">
+                                    <mat-error *ngIf="ownerContact.errors?.['required']">   
+                                        contact is required
+                                    </mat-error>
+
+                                    <mat-error *ngIf="ownerContact.errors?.['pattern']">   
+                                        contact must be a 10 digit number
+                                    </mat-error>
+
+                                </mat-form-field>                        
+
+                            </div>
+                        </form>
+                    </div>
+    
+    <!-- ######################################################################################################### -->
+                    <div class="address">
+                        <h2>
+                            Address
+                        </h2>
+                        <form [formGroup]="addressForm" class="address-form">
+
+                            <div class="field-row1">
+                                <mat-form-field appearance="fill" >
+                                    <mat-label>State</mat-label>
+                                    <mat-select matInput formControlName="restaurantState"    (selectionChange)="stateChange($event)">
+                                      <mat-option disabled>Select a state</mat-option>                            
+                                      <mat-option [disabled]="!isEditingForm" *ngFor="let state of _states" [value]="state" >{{ state }}</mat-option>
+                                    </mat-select>
+                                    <mat-error *ngIf="restaurantState.errors?.['required']">   
+                                        state is required
+                                    </mat-error>
+
+                                  </mat-form-field>
+                              
+                                  <mat-form-field appearance="fill">
+                                    <mat-label>City</mat-label>
+                                    <mat-select matInput formControlName="restaurantCity" >
+                                      <mat-option disabled>Select a city</mat-option>
+                                      <mat-option [disabled]="!isEditingForm" *ngFor="let city of _cities" [value]="city">{{ city }}</mat-option>
+                                    </mat-select>
+                                    <mat-error *ngIf="restaurantCity.errors?.['required']">   
+                                        city is required
+                                    </mat-error>
+
+                                  </mat-form-field>
+
+                            </div>
+                            <div class="field-row1">
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        area
+                                    </mat-label>
+                                    <input type="text" matInput  [readonly]="!isEditingForm" formControlName="restaurantArea">
+                                    <mat-error *ngIf="restaurantArea.errors?.['required']">   
+                                        area is required
+                                    </mat-error>
+
+                                </mat-form-field>
+            
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        street
+                                    </mat-label>
+                                    <input type="text" matInput [readonly]="!isEditingForm" formControlName="restaurantStreet">
+                                    <mat-error *ngIf="restaurantStreet.errors?.['required']">   
+                                        street is required
+                                    </mat-error>
+                                </mat-form-field>
+                                <mat-form-field appearance="fill" (click)="click()">
+                                    <mat-label>
+                                        zipcode
+                                    </mat-label>
+                                    <input type="text" matInput  [readonly]="!isEditingForm" formControlName="restaurantZipcode">
+
+                                    <mat-error *ngIf="restaurantZipcode.errors?.['required']">   
+                                        zipcode is required
+                                    </mat-error>
+
+                                    <mat-error *ngIf="restaurantZipcode.errors?.['pattern']">   
+                                        zipcode must be  a 5-6 digit number
+                                    </mat-error>
+
+
+                                </mat-form-field>
+    
+                            </div>
+    
+
+                        </form>
+                    </div>
+                </div>    
+            </mat-card-content>
+            <mat-card-actions>
+
+
+                <div *ngIf="!isEditingForm">
+                    <button mat-flat-button color="primary" (click)="editForm()">
+                        edit restaurant details
+                    </button>
+                    <!-- <button mat-flat-button color="warn" >
+                        delete restaurant
+                    </button> -->
+                </div>
+                <div *ngIf="isEditingForm">
+                    <button mat-flat-button color="accent" (click)="updateRestaurant()"  
+                    [disabled]="(!detailsForm.touched && !ownerForm.touched && !addressForm.touched ) || detailsForm.invalid || ownerForm.invalid || addressForm.invalid">
+                        accept changes
+                    </button>
+                    <button mat-flat-button color="warn" (click)="cancelForm()">
+                        cancel
+                    </button>
+
+                </div>
+
+            </mat-card-actions>
+        </mat-card>
+    <!-- ######################################################################################################### -->
+    <!-- ######################################################################################################### -->
+
+        <mat-card class="restaurant-card"> 
+            <mat-card-header>
+                <!-- <img mat-card-image class="image restaurant-image"  src="../../assets/Chocolate Bonbons.jpg" alt="not found"> -->
+
+                <div class="img-container">
+                    <img [src]="imageUrl" mat-card-image alt="restaurant image" class="restaurant-image">
+                </div>
+            </mat-card-header>
+            <mat-card-content>
+            </mat-card-content>
+            <mat-card-actions>
+                <input type="file" id="fileInput" style="display:none;" accept=".png" (change)="onFileChanged($event)" >
+                <div *ngIf="!isEditingImage">
+                    <button mat-flat-button color="primary" (click)="isEditingImage = true" matTooltip="set a different image for your restaurant">
+                        change image
+                    </button>
+                </div>
+                <div *ngIf="isEditingImage">
+                    <button mat-flat-button color="primary" (click)="openFileInput()" matTooltip="only PNGs allowed">
+                        choose image
+                    </button>
+                    <button mat-flat-button color="accent" (click)="uploadImage()">
+                        upload
+                    </button>
+                    <button mat-flat-button color="warn" (click)="cancelImageEdit()">
+                        cancel
+                    </button>
+
+                </div>
+                
+            </mat-card-actions>
+
+        </mat-card>
+
+    <!-- ######################################################################################################### -->
+    <!-- ######################################################################################################### -->
+
+    </div>
+    <!-- ######################################################################################################### -->
+    <!-- ######################################################################################################### -->
+    <!-- ######################################################################################################### -->
+
+    <div *ngIf="!restaurant">
+        <h1>
+            404
+        </h1>
+        <h2>
+            restaurant not found
+        </h2>
+    </div>
+
+</div>

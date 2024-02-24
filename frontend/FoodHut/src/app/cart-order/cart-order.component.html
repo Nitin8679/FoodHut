@@ -1,0 +1,26 @@
+<div class="cart-order">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                {{item?.name}}
+            </mat-card-title>
+            <mat-card-subtitle>
+        
+                <span>
+                    Price: ₹ {{item?.price}}
+                </span>
+                <span>
+                    Qt: {{order?.amount}}
+                </span>
+            </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+           From:  {{restaurant?.name}}
+        </mat-card-content>
+        <mat-card-footer>
+            Total Price: {{order?.amount * item?.price  }}
+        </mat-card-footer>
+
+    </mat-card>
+
+</div>

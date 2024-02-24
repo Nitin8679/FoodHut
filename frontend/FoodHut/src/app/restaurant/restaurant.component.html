@@ -1,0 +1,63 @@
+<div class="restaurant">
+    
+    <div class="details">
+        <div class="details-header">
+            <div class="info">
+                <span>
+                    Contact: <span style="color: brown; font-weight: 500;">{{selectedRestaurant?.contact}}</span>
+                </span>
+                <div>
+                    cuisine: {{selectedRestaurant?.cuisineType}}
+                </div>
+                
+                <div class="description">
+                    <p>
+                        About
+                    </p>
+                    {{selectedRestaurant?.description}}
+        
+                </div>
+                <button mat-mini-fab matTooltip="{{isFavorite ?'Remove item from favorites':'Add item to favorites' }}" 
+                    (click)="addRestaurantToFavorites()"  [style.backgroundColor]="isFavorite? 'gold': 'grey'" 
+                    color="accent" [disabled]="!isLoggedIn">
+                    <mat-icon>
+                        star
+                    </mat-icon>
+                </button>
+            </div>
+            <div class="img-container">
+                <img [src]="imageUrl" alt="not found">
+            </div>
+
+        </div>
+        <div class="details-footer">
+            <h1 >
+                {{selectedRestaurant?.name}}
+            </h1>
+            
+            <div class="address">
+                <div>
+                    <span>
+                        {{selectedRestaurant?.address.state}}, 
+                    </span>
+                    <span>
+                        {{selectedRestaurant?.address.city}}
+                    </span>
+                </div>
+                <span>
+                    {{selectedRestaurant?.address.area}},
+                </span>
+                <span>
+                    {{selectedRestaurant?.address.street}}
+                </span>
+                <span>
+                    ,{{selectedRestaurant?.address.zipcode}}
+                </span>
+            </div>
+
+        </div>
+    </div>
+    <div class="menu-panel">
+        <app-menu-panel [restaurantId]="restaurantId"></app-menu-panel>    
+    </div>
+</div>
